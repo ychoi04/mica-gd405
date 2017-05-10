@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#gradient {
+  display: none;
+}
+
+#canvas {
+  position: fixed;
+  z-index: -1;
+  left: 1rem;
+}
+
+.flex {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 8rem;
+  transform: rotate(-90deg) translateX(-50%);
+  transform-origin: left bottom 0;
+}
+
+.flex-actions {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 3rem 15rem;
+}
+
+h3 {
+  padding: 0 1rem 0 1rem;
+}
+
+p {
+  font-size: 2rem;
+  margin: 2rem 4rem 0rem 15rem;
+  max-width: 35em;
+}
+
+.toggle {
+  font-size: 2rem;
+  padding: 0 0 0 2rem;
+}
+
+.toggle:hover {
+  opacity: 0.5;
+}
+
+
+
+body.theme1{
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.theme1 h3 {
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+
+
+.theme2 h3 {
+  color: blue;
+  font-size: 1.5rem;
+  font-family: 'Cardo', serif;
+}
+
+.theme1 #gradient {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+
+
+.theme1 #button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+}
+
+.theme2 #button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-align: left;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 2rem;
+  color: blue;
+  font-family: 'Cardo', serif;
+}
+
+.theme2 p {
+  color: black;
+}
+
+
+body.theme2{
+  font-family: 'Cardo', serif;
+}
+
+
+

@@ -1,0 +1,52 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <script language="javascript" src="libraries/p5.dom.js"></script>
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
+  <style>
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  canvas {
+    display: inline;
+    clear: both;
+    float: none;
+    overflow: visible !important;
+    page-break-inside: auto !important;
+    position: relative;
+  }
+
+  @media print {
+    canvas {
+      overflow: visible !important;
+    }
+    .hide {
+      display: none;
+    }
+  }
+
+  @page {
+      size: 5.5in 8.5in;
+      margin: 0cm;
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <div class='hide'>
+    <input id="uploadInput" type="file" onchange="selectFiles();" multiple> selected files: <span id="fileNum">0</span>
+  </div>
+
+</body>
+</html>
