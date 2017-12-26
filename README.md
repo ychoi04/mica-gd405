@@ -18,7 +18,7 @@
 
 ## Weekly
 ### Week 1
-- [Survey](https://goo.gl/forms/h6sAjvGwCG4aXHql1) - please complete it this week.
+- [Survey](https://goo.gl/forms/RP3SSk7o9McPhvr53) - sign in with your MICA email account.
 - [lecture](lectures/w1/lecture.md)
 - [assignments](lectures/w1/w1-assignments.md)
 
