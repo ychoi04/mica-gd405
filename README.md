@@ -13,7 +13,7 @@
 - [Syllabus](files/MICA-18SP-GenType-Syllabus.pdf)
 
 ## General resources
-- [Submit assignments here.](https://drive.google.com/drive/folders/11t0H6FQ7-p-8r-f7UgTzNdKfTzrla2VR?usp=sharing)
+- [Submit assignments here.](https://drive.google.com/drive/folders/11t0H6FQ7-p-8r-f7UgTzNdKfTzrla2VR?usp=sharing) - sign in with your MICA email account.
 - [Computational typography resources Trello board](https://trello.com/b/1P0cgPsv/computational-typography-resources)
 
 ## Journal
