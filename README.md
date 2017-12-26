@@ -5,16 +5,16 @@
 ## Course information
 - GD405
 - 3 credits
-- Spring 2017
+- Spring 2018
 - Instructor: [Dae In Chung](http://paperdove.com)
 - email: [dchung01@mica.edu](mailto:dchung01@mica.edu)
 - Office: BR303
-- Office hours: Tue 3-4:30pm & Wed 2:30-4pm (email for an appointment)
-- [Syllabus](files/MICA-17SP-GenType-Syllabus.pdf)
+- Office hours: Tue, Thu & Fridays - email for an appointment
+- [Syllabus](files/MICA-18SP-GenType-Syllabus.pdf)
 
 ## General resources
-- [Submit assignments here.](https://drive.google.com/drive/folders/0B6qjLkwjTXyrckNkanhLU3B6bE0?usp=sharing)
-- [Computational typography resources Trello board](https://trello.com/b/1P0cgPsv/computational-typography-resources) - I will make updates to this board with useful information throughout the semester.
+- [Submit assignments here.](https://drive.google.com/drive/folders/11t0H6FQ7-p-8r-f7UgTzNdKfTzrla2VR?usp=sharing)
+- [Computational typography resources Trello board](https://trello.com/b/1P0cgPsv/computational-typography-resources)
 
 ## Journal
 [Jihae Choe](https://trello.com/b/6zwvRPog/sp17-gd403-jihaechoe-journal) / [Hyojeong Choe](https://trello.com/b/Z0vkUN6z/gd403-hyojeong-choi-s-journal) / [Irene Choi](https://trello.com/b/EY5tyNBR/gd405-irene-choi-journal) / [Hui Yang](https://trello.com/b/TjBCxdRt/generative-typography-journal) / [Yunzi Liu](https://trello.com/b/BW74kB5A/gd405-journal) / [Drew Laskowski](https://trello.com/b/U4yjyLRb) / [Jen Evans](https://trello.com/b/EZHt132A/gd405-journal-jen-evans) / [Potch Auacherdkul](https://trello.com/b/ETpH7afq/gd405-journal) / [Youjin Jang](https://trello.com/b/vlwJbRwS/gd405-journal) / [Erica Holeman](https://trello.com/b/ZOLwhgDH/gd-405-erica-s-journal) / [London zhang](https://trello.com/b/tRMvTo51/gd4-5-journal) / [Lorna Pittaway](https://trello.com/b/Jjqr1pHh/gd405-journal) / [Jeena Kim](https://trello.com/b/QFot9CXD/jeena-kim) / [Chris Parks](https://trello.com/b/Y3VdYheE/gd405-journal) / [Nik Sheeran](https://trello.com/b/BOnjHt8Y/gd405-journal) / [Chris Fodge](https://trello.com/b/lMZSpLqS/gd405-journal)
