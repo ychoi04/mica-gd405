@@ -22,6 +22,8 @@
 - [lecture](lectures/w1/lecture.md)
 - [assignments](lectures/w1/w1-assignments.md)
 
+<!--
+
 ### Week 2
 - [Setting up a sketch](lectures/w2/setting-up-sketch.md)
 - [Drawing basics](lectures/w2/drawing-basics.md) 
@@ -87,4 +89,4 @@
 
 - [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
 
-
+-->
