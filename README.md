@@ -20,7 +20,7 @@
 ### Week 1
 - [Survey](https://goo.gl/forms/RP3SSk7o9McPhvr53) - sign in with your MICA email account.
 - download [Processing](http://processing.org)
-- [assignments](lectures/w1/w1-assignments.md)
+- [assignments](lectures/w1-assignments.md)
 
 <!--
 
