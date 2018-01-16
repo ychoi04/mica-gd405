@@ -1,7 +1,9 @@
 # Week 1 assignments
 
 ## Karel exercises
-...
+This is an optional assignment. If you want to keep practicing with Stanford Karel, you can continue on your own. It will definitely be helpful although not required. Keep in mind the website is broken from Unit 10 on, and Unit 8 Lesson 5 is quite difficult.
+
+If you have an iPad, you can download an app called Swift Playground. It's very similar to Karel, and teaches you fundamentals of coding and algorithms.
 
 ## Watch video tutorials
 
