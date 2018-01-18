@@ -13,7 +13,6 @@
 - [Syllabus](files/MICA-17SP-GenType-Syllabus.pdf)
 
 ## General resources
-- [Submit assignments here.](https://drive.google.com/drive/folders/0B6qjLkwjTXyrckNkanhLU3B6bE0?usp=sharing)
 - [Computational typography resources Trello board](https://trello.com/b/1P0cgPsv/computational-typography-resources) - I will make updates to this board with useful information throughout the semester.
 
 ## Journal
