@@ -1,5 +1,12 @@
 # Week 2 Assignments
 
+## Video Lessons
+Visit this [Youtube playlist](https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5) and watch the videos:
+  - 2.2: Variables in p5.js (Make your own)
+  - 2.3: JavaScript Objects
+
+-----
+
 ## Drawing type
 Design 3 words — type, form, and code — based on rules and conditions you set. Each word should employ different rules, therefore, they should be designed in different visual styles. Letters in each word should have some uniformity.
 
@@ -22,20 +29,7 @@ We haven’t yet learned how to connect variables to control the form, but this 
   - 3 different codepen links posted on Google Doc. Save the p5.js sketch files for your own record and you may be asked later to submit as files, not web links.
   - Images(screen captures) of your design. Post them on Week 2 folder.
   - Also, print your images on paper.
-  
------
 
-## Video Lessons
-Visit this [Youtube playlist](https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5) and watch the videos:
-  - 2.2: Variables in p5.js (Make your own)
-  - 2.3: JavaScript Objects
 
-Visit this [Kadenze course page](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js-i)(you can sign up for free), go to [Session 2:Variables and Loops page](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js-i/sessions/variables-and-loops) and watch the videos:
-  - 1. Variables: Store, Modify, & Reuse Data
-  - 2. Changing Variable Values with Math
 
------
-
-## Journal
-Keep updating your Trello journal. Add the link on Google Doc if you haven't already done so.
 
