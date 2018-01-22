@@ -1,11 +1,6 @@
 # Week 2 Assignments
 
-## Video Lessons
-Watch the videos listed below, and just like last time, take notes, post the images on G Drive and bring back questions!
-  - [3. Interactions](https://www.youtube.com/watch?v=o8dffrZ86gs&list=PLRqwX-V7Uu6by61pbhdvyEpIeymlmnXzD) (3 videos)
-  - [4. Variables](https://www.youtube.com/watch?v=B-ycSR3ntik&list=PLRqwX-V7Uu6aFNOgoIMSbSYOkKNTo89uf) (4 videos)
 
------
 
 ## Drawing type
 Design 3 words — type, form, and code — based on rules and conditions you set. Each word should employ different rules, therefore, they should be designed in different visual styles. Letters in each word should have some uniformity.
@@ -29,6 +24,12 @@ We haven’t yet learned how to connect variables to control the form, but this 
   - Images(screen captures) of your design for each sketch. 
   - Post everything on Google Drive.
 
+-----
+
+## Video Lessons
+Watch the videos listed below, and just like last time, take notes, post the images on G Drive and bring back questions!
+  - [3. Interactions](https://www.youtube.com/watch?v=o8dffrZ86gs&list=PLRqwX-V7Uu6by61pbhdvyEpIeymlmnXzD) (3 videos)
+  - [4. Variables](https://www.youtube.com/watch?v=B-ycSR3ntik&list=PLRqwX-V7Uu6aFNOgoIMSbSYOkKNTo89uf) (4 videos)
 
 
 
