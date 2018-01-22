@@ -7,18 +7,3 @@ After you downloaded and opened Processing at least for once, you will find "Pro
 When you type in some code and save the sketch, it will be saved to your Sketchbook location as I mentioned it above. Processing code files will have `pde` file extension. So, if you name your sketch "myFirstSketch", then the file saved will look like `myFirstSketch.pde`. You will also see it's actually saved in a folder with the same name `myFirstSketch`. That's how it works. A Processing file (`pde`) **must** be saved inside the folder with the same name. If you somehow change the file name or move it out of the folder, it will not work. Make sure you always keep the file and folder together with the same name.
 
 
-## Code Structure
-For any sketch you will create, you need at least two main code blocks - `setup()` and `draw()`. The codes inside `setup()` will run only once at the very beginning of the sketch. After that, the codes inside `draw()` will keep running every frame. For example, if you want to move something every frame, that code will need to go inside `draw()`. 
-
-```java
-void setup() {
-  size(400, 400); // create a window with 400 pixel width by 400 pixel height.
-}
-
-void draw() {
-
-}
-```
-
-
-
