@@ -31,9 +31,9 @@
 - [Setting up a sketch](lectures/w2-setting-up-sketch.md)
 - [Drawing basics](lectures/w2-drawing-basics.md) 
 - [Main Structure](lectures/w2-main-structure.md)
+- [Advanced drawing](lectures/w2-drawing-advanced.md)
 
 <!--
-- [Advanced drawing](lectures/w2/drawing-advanced.md)
 - [Type functions](lectures/w2/type-functions.md)
 - [assignments](lectures/w2/w2-assignments.md)
 
