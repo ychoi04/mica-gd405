@@ -25,7 +25,6 @@
 
 ### Week 2
 - How to document your process
-  - don't spend too much time; keep it your habit.
   - take screenshots and screen recording (quicktime on macs)
   - use [Trello](http://trello.com) with [Markdown](http://help.trello.com/article/821-using-markdown-in-trello)
   - save everything and name them properly (YYMMDD-version-description.xxx)
