@@ -8,7 +8,7 @@ When you type in some code and save the sketch, it will be saved to your Sketchb
 
 
 ## Code Structure
-For any sketch you will create, you need at least two main code blocks - `setup()` and `draw()`.
+For any sketch you will create, you need at least two main code blocks - `setup()` and `draw()`. The codes inside `setup()` will run only once at the very beginning of the sketch. After that, the codes inside `draw()` will keep running every frame. For example, if you want to move something every frame, that code will need to go inside `draw()`. 
 
 ```java
 void setup() {
