@@ -109,4 +109,15 @@ fill(200, 100); // set fill to light grey with transparency.
 stroke(255, 0, 0, 80); // set stroke to red with transparency.
 ```
 
+## Comments
+When you want to leave notes for yourself in the sketch, you can use comments. The comments will not be executed by Processing.
 
+```java
+
+// a line starting with double slash is a single-line comment
+
+/*
+you can use slash and asterisk for 
+multi-line comments.
+*/
+```
