@@ -1,37 +1,21 @@
-# Setting up a p5.js sketch
-different ways to setup a p5.js sketch.
+# Setting up a Processing sketch
 
-### Brackets
-1. First, download the p5.js complete library from http://p5js.org
-1. Unzip the file.
-1. Inside the folder, you will see `empty-example` folder.
-1. Make a copy of this `empty-example` folder and rename it to what you want, say, `my-first-sketch`. Do not rename anything inside - `index.html`, `libraries` or `sketch.js`.
-1. Drag the folder and drop it onto the Brackets code editor.
-1. Now, you can live preview the `index.html`.
-1. Add your own code in `sketch.js`.
-1. Anytime you save, the live preview will update.
-1. If the live preview does not work, close the browser window and try again.
+## Folder structure
+After you downloaded and opened Processing at least for once, you will find "Processing" folder in your "Documents" folder. This is where every Processing sketch you save will be placed in. It's the default location. You can change the Sketchbook location by going to Preferences, but I will not recommend you change it.
+
+## Sketch structure
+When you type in some code and save the sketch, it will be saved to your Sketchbook location as I mentioned it above. Processing code files will have `pde` file extension. So, if you name your sketch "myFirstSketch", then the file saved will look like `myFirstSketch.pde`. You will also see it's actually saved in a folder with the same name `myFirstSketch`. That's how it works. A Processing file (`pde`) **must** be saved inside the folder with the same name. If you somehow change the file name or move it out of the folder, it will not work. Make sure you always keep the file and folder together with the same name.
 
 
-### Codepen
-1. Create a new pen.
-1. Click the gear icon next to JS tab.
-1. Under Add External JavaScript, copy and paste the following:
-  `https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js`
-1. Save & Close.
-1. Now, start coding in the JS tab. (You don't need anything in HTML or CSS tab.)
+## Code Structure
+For any sketch you will create, you need at least two main code blocks - `setup()` and `draw()`.
 
-### OpenProcessing
-[OpenProcessing](https://www.openprocessing.org) does not need any setup. Just create a sketch and have fun.
-
-## Main Structure
-At the very minimum, your sketch should have two function blocks `setup()` and `draw()`. Define the size of the canvas with `createCanvas()` function.
-```js
-function setup() {
-  createCanvas(400, 400); // create a canvas of 400 pixel width by 400 pixel height.
+```java
+void setup() {
+  size(400, 400); // create a window with 400 pixel width by 400 pixel height.
 }
 
-function draw() {
+void draw() {
 
 }
 ```
