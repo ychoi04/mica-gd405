@@ -16,6 +16,7 @@ We haven’t yet learned how to connect variables to control the form, but this 
   - http://normalfutu.re/esthetics-of-variability/normaltypev154/
   - http://3st.com/work/exhibit-columbus#1
   - http://typecuts.com/projects.php?c=3&p=9
+  - http://www.muirmcneil.com/projects/
 
 
 ### Deliverables
