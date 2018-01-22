@@ -31,5 +31,6 @@ Watch the videos listed below, and just like last time, take notes, post the ima
   - [3. Interactions](https://www.youtube.com/watch?v=o8dffrZ86gs&list=PLRqwX-V7Uu6by61pbhdvyEpIeymlmnXzD) (3 videos)
   - [4. Variables](https://www.youtube.com/watch?v=B-ycSR3ntik&list=PLRqwX-V7Uu6aFNOgoIMSbSYOkKNTo89uf) (4 videos)
 
-
+-----
+*All assignments are due at the beginning of next class. If your files are not ready, it will be marked late.*
 
