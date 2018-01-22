@@ -24,7 +24,7 @@
 - [assignments](lectures/w1-assignments.md)
 
 ### Week 2
-- [Setting up a sketch](lectures/w2/setting-up-sketch.md)
+- [Setting up a sketch](lectures/w2-setting-up-sketch.md)
 
 <!--
 - [Drawing basics](lectures/w2/drawing-basics.md) 
