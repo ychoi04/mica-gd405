@@ -21,6 +21,7 @@ We haven’t yet learned how to connect variables to control the form, but this 
 
 ### Deliverables
   - set each sketch size to 900 x 600 px.
+  - you can use colors if you want, but keep *the background white*.
   - 3 different Processing sketches (folders) for each word. Note that (1) you have to upload the entire folder, not just `pde` file, (2) the folder and file must have the same name. 
   - Images(screen captures) of your design for each sketch. 
   - Post everything on Google Drive.
