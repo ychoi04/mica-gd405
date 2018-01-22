@@ -1,6 +1,6 @@
 # Week 2 Assignments
 
-
+![student work examples](../images/w2-student-ex.png)
 
 ## Drawing type
 Design 3 words — type, form, and code — based on rules and conditions you set. Each word should employ different rules, therefore, they should be designed in different visual styles. Letters in each word should have some uniformity.
