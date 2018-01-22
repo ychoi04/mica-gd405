@@ -30,7 +30,8 @@
   - use [Trello](http://trello.com) with [Markdown](http://help.trello.com/article/821-using-markdown-in-trello)
   - save everything and name them properly (YYMMDD-version-description.xxx)
 - [Setting up a sketch](lectures/w2-setting-up-sketch.md)
-- [Drawing basics](lectures/w2/drawing-basics.md) 
+- [Drawing basics](lectures/w2-drawing-basics.md) 
+- [Main Structure](lectures/w2-main-structure.md)
 
 <!--
 - [Advanced drawing](lectures/w2/drawing-advanced.md)
