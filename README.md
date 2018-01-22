@@ -24,6 +24,10 @@
 - [assignments](lectures/w1-assignments.md)
 
 ### Week 2
+- How to document your process
+  - take screenshots and screen recording (quicktime on macs)
+  - use [Trello](http://trello.com) with [Markdown](http://help.trello.com/article/821-using-markdown-in-trello)
+  - save everything and name them properly (YYYYMMDD-version-description.xxx)
 - [Setting up a sketch](lectures/w2-setting-up-sketch.md)
 
 <!--
