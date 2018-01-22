@@ -10,11 +10,9 @@ Watch the videos listed below, and just like last time, take notes, post the ima
 ## Drawing type
 Design 3 words — type, form, and code — based on rules and conditions you set. Each word should employ different rules, therefore, they should be designed in different visual styles. Letters in each word should have some uniformity.
 
-For example, one of the words may only use circles. Another one may only use diagonals. Another one may use lines emanating from the center, etc. But, don’t take these examples literally and experiment. 
+For example, one of the words may only use circles. Another one may only use diagonals. Another one may use lines emanating from the center, etc. But, don’t take these examples literally. Do your own experiments. 
 
-We haven’t yet learned how to connect variables to control the form, but this should be one of the considerations while doing this assignment — how computational typography can be different from the more traditionally designed types. Our end goal is not to just design a set of type forms. It is to create a system with rules and variables that can respond to different conditions to generate different outcomes dynamically. What properties of your type design do you want to control to make it responsive or interactive?
-
-*Assignments can give you a better idea on what area to pursue for the final project. You may be asked to develop any previous assignments more later.*
+We haven’t yet learned how to connect variables to control the form, but this should be one of the considerations while doing this assignment — how computational typography can be different from the more traditionally designed types. Our end goal is not to just design a set of typographic forms. It is to create a system with rules and variables that can respond to different conditions to generate different outcomes dynamically. What properties of your type design do you want to control to make it responsive or interactive?
 
 ### Inspirations 
   - Peter Cho’s [Type me, type me not](http://www.typotopo.com/projects.php?id=typemenot)
@@ -26,9 +24,10 @@ We haven’t yet learned how to connect variables to control the form, but this 
 
 
 ### Deliverables
-  - 3 different codepen links posted on Google Doc. Save the p5.js sketch files for your own record and you may be asked later to submit as files, not web links.
-  - Images(screen captures) of your design. Post them on Week 2 folder.
-  - Also, print your images on paper.
+  - set each sketch size to 900 x 600 px.
+  - 3 different Processing sketches (folders) for each word. Note that (1) you have to upload the entire folder, not just `pde` file, (2) the folder and file must have the same name. 
+  - Images(screen captures) of your design for each sketch. 
+  - Post everything on Google Drive.
 
 
 
