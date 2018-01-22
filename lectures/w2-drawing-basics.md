@@ -72,7 +72,7 @@ If you want to connect the last vertex and the first vertex, add an optional par
 ```java
 endShape(CLOSE);
 ```
-*Exercise: Draw the outline of an uppercase F using vertices.*
+*Exercise: Draw the outline of an uppercase F using vertices. It helps to plot the points first on graph paper.*
 
 ### Stroke weight
 ```java
