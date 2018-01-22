@@ -1,12 +1,12 @@
 # Type Functions
-There are several type related function in p5.js and you can find the list [here](http://p5js.org/reference#group-Typography). Let's take a look at them.
+There are several type related function and you can find the list [here](https://processing.org/reference/). Let's take a look at them.
 
 ## Writing text
 You write text on screen with `text()` function.
 ```js
 text("hello world!", 10, 50);
 ```
-Your message must be placed within the double quote block `" "`. We call it *a string*. The second and third parameters are the x and y positions. There are the optional fourth and fifth parameters if you want to set up a text box. Look at [this example](http://p5js.org/reference/#/p5/text).
+Your message must be placed within the double quote block `" "`. We call it *a string*. The second and third parameters are the x and y positions. There are the optional fourth and fifth parameters if you want to set up a text box. Look at [this example](https://processing.org/reference/text_.html).
 
 ## Text size
 ```js
@@ -15,7 +15,7 @@ text("Type", 20, 50);
 ```
 
 ## Font
-You can set the font to what you want. You have to have the font installed on your computer. How to find the right name to use? Open up the Font Book app (on Mac), and copy the PostScript name of the font. If you share your project online, make sure that your audience also has the same font on their machines. This is hard to guarantee in most cases, so it might be a good idea to use one of the web safe fonts.
+You can set the font to what you want. You have to have the font installed on your computer. How to find the right name to use? Open up the Font Book app (on Mac), and copy the PostScript name of the font. If you share your project files with other people, make sure that your audience also has the same fonts on their machines. This is hard to guarantee in most cases, so it might be a good idea to include the font files in your project (be careful with the copyrights, though).
 ```js
 textFont("Roboto-BlackItalic");
 textSize(128);
@@ -81,7 +81,7 @@ function keyTyped() {
 }
 ```
 
-## Loading webfonts
+## Loading external fonts
 Instead of relying on the system fonts, you can load in web fonts just like you would with HTML/CSS. Let's find a font on [Google FONTS](https://fonts.google.com). For example, I found [Merriweather fonts](https://fonts.google.com/specimen/Merriweather) on Google Fonts. You need to get the link code that looks like this:
 
   `<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">`
