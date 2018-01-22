@@ -1,9 +1,9 @@
 # Week 2 Assignments
 
 ## Video Lessons
-Visit this [Youtube playlist](https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5) and watch the videos:
-  - 2.2: Variables in p5.js (Make your own)
-  - 2.3: JavaScript Objects
+Watch the videos listed below, and just like last time, take notes, post the images on G Drive and bring back questions!
+  - [3. Interactions](https://www.youtube.com/watch?v=o8dffrZ86gs&list=PLRqwX-V7Uu6by61pbhdvyEpIeymlmnXzD) (3 videos)
+  - [4. Variables](https://www.youtube.com/watch?v=B-ycSR3ntik&list=PLRqwX-V7Uu6aFNOgoIMSbSYOkKNTo89uf) (4 videos)
 
 -----
 
