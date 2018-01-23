@@ -32,7 +32,7 @@
 - [Drawing basics](lectures/w2-drawing-basics.md) 
 - [Main Structure](lectures/w2-main-structure.md)
 - [Advanced drawing](lectures/w2-drawing-advanced.md)
-- [assignments](lectures/w2/w2-assignments.md)
+- [assignments](lectures/w2-assignments.md)
 
 ### Week 3
 <!--
