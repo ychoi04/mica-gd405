@@ -33,7 +33,7 @@ println( 12 / 4 );
 ```java
 println( 1 / 3 );
 ```
-Notice
+Notice that when you divide two integers, you don't get a float point number. In the case of `1/3`, the result will be `0`. If you want to get float point number, one of the numbers, either numerator or denominator must be a float point number. So, changing `1/3` to `1.0/3` or `1/3.0` will give you the result of `0.3333333`.
 
 ## The order of operations
 ```js
