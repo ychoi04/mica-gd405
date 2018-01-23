@@ -37,52 +37,52 @@ Notice
 
 ## The order of operations
 ```js
-console.log( 1 + 2 * 3 );
-console.log( (1 + 2) * 3 );
+println( 1 + 2 * 3 );
+println( (1 + 2) * 3 );
 ```
 
 ## Modulus
 When you use modulus operator `%`, It will return you the remainder from the division.
 ```js
-console.log( 12 % 4 ); // 0
-console.log( 12 % 5 ); // 2
+println( 12 % 4 ); // 0
+println( 12 % 5 ); // 2
 ```
 
 ## Ceil
 `ceil()` rounds a number upwards to the nearest integer.
 ```js
-var a = 0.5;
-var b = ceil(a);
-console.log(b);
+float a = 0.5;
+int b = ceil(a);
+println(b);
 ```
 
 ## floor
 ```js
-var a = 0.9;
-var f = floor(a);
-console.log(f);
+float a = 0.9;
+int f = floor(a);
+println(f);
 ```
 
 ## Round
 ```js
-var a = 0.49;
-var b = 0.5;
-console.log( round(a) ); // 0
-console.log( round(b) ); // 1
+float a = 0.49;
+float b = 0.5;
+println( round(a) ); // 0
+println( round(b) ); // 1
 ```
 
 ## Min 
 ```js
-var a = 12;
-var b = 24;
-console.log( min(a, b) );
+int a = 12;
+int b = 24;
+println( min(a, b) );
 ```
 
 ## Max
 ```js
-var a = -8;
-var b = -20;
-console.log( max(a, b) );
+int a = -8;
+int b = -20;
+println( max(a, b) );
 ```
 
 <!--
