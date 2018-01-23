@@ -2,34 +2,38 @@
 
 ## Addition
 ```js
-console.log( 3 + 4 );
-console.log( 123 + 456 );
+println( 3 + 4 );
+println( 123 + 456 );
 ```
 
 ### Concatenation
 ```js
-var a = "hello";
-var b = "world";
-console.log( a + b );
+String a = "hello";
+String b = "world";
+println( a + b );
 ```
 
 ## Subtraction
 ```js
-console.log( 12 - 5 );
-console.log( 1 - 80 );
+println( 12 - 5 );
+println( 1 - 80 );
 ```
 
 ## Multiplication
 ```js
-console.log( 8 * 8 );
-console.log( 100 * 0.1 );
+println( 8 * 8 );
+println( 100 * 0.1 );
 ```
 
 ## Division
 ```js
-console.log( 12 / 4 );
-console.log( 1 / 3 );
+println( 12 / 4 );
 ```
+
+```java
+println( 1 / 3 );
+```
+Notice
 
 ## The order of operations
 ```js
