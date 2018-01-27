@@ -5,13 +5,13 @@
 ### Mouse position
 `mouseX` and `mouseY` store the current mouse position in numbers.
 
-```
+```java
 void draw() {
   ellipse(mouseX, mouseY, 100, 100);
 }
 ```
 
-```
+```java
 void draw() {
   fill(mouseX, 0, 255);
   ellipse(mouseX, mouseY, 200, 200);
@@ -21,7 +21,7 @@ void draw() {
 ### Previous mouse position
 `pmouseX` and `pmouseY` store the mouse position of the previous frame.
 
-```
+```java
 void draw() {
  line(pmouseX, pmouseY, mouseX, mouseY);
 }
@@ -31,11 +31,11 @@ void draw() {
 `width` and `height` variables store the width and height of the current canvas.
 
 ```js
-function setup() {
-  createCanvas(500, 500);
+void setup() {
+  size(500, 500);
 }
 
-function draw() {
+void draw() {
   background(200);
   ellipse(width/2, height/2, 200, 200);
   line(0, 0, width, height);
@@ -47,17 +47,13 @@ function draw() {
 `windowWidth` and `windowHeight` store the size of the browser window. As you resize the window, the values will change.
 
 ```js
-function setup() {
+void setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
-function draw() {
+void draw() {
   background(200);
   ellipse(width/2, height/2, 200, 200);
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
 }
 ```
 
@@ -65,8 +61,8 @@ function windowResized() {
 `frameCount` stores the number of frames that have passed since the sketch started running. As the sketch keeps running, the value will keep increasing.
 
 ```js
-function draw() {
-  console.log(frameCount);
+void draw() {
+  println(frameCount);
 }
 ```
 
@@ -74,18 +70,18 @@ function draw() {
 A variable stores a value in the computer memory so that it can be used later in a program. Once you create a variable, you can use it as many times as you want. The value can also be changed while the program is running.
 
 ```js
-var life = 3; // declare and initialize a variable
+int life = 3; // declare and initialize a variable
 ```
 
 When creating a variable, use a descriptive name.
 ```js
-var a = 21; // what is a?
-var age = 21; // this is better.
+int a = 21; // what is a?
+int age = 21; // this is better.
 ```
 
 Variables are not limited to a number. You can store more complex data in a variable. Below is an example of color.
 ```js
-var col = color(0, 200, 100);
+Color col = color(0, 200, 100);
 fill(col);
 ellipse(width/2, height/2, 100, 100);
 ```
@@ -93,7 +89,7 @@ ellipse(width/2, height/2, 100, 100);
 ### Variable scope
 When a variable is declared outside of any functions such as `setup()` or `draw()`, it can be used from anywhere in the program. This is called a *global variable*.
 ```js
-var diam = 200; // global variable
+int diam = 200; // global variable
 
 function setup() {
   createCanvas(400, 400);
@@ -107,12 +103,12 @@ function draw() {
 When a variable is declared within a function, it can only be used within the function it was created from. This is called a *local variable*.
 
 ```js
-function setup() {
+void setup() {
   createCanvas(400, 400);
   var diam = 200; // local variable
 }
 
-function draw() {
+void draw() {
   ellipse(width/2, height/2, diam, diam); // error - draw() cannot see diam variable.
 }
 ```
@@ -121,11 +117,11 @@ function draw() {
 To print a value, use `console.log()`. This is useful to check the current value of any variables.
 
 ```js
-var a = "How are you?"
-console.log(a);
+String a = "How are you?"
+println(a);
 
-var b = 3;
-console.log(b);
+int b = 3;
+println(b);
 ```
 
 What you print using `console.log()` does not show up on your canvas. You have to open up the JavasScript console from the browser.
@@ -135,22 +131,22 @@ What you print using `console.log()` does not show up on your canvas. You have t
 One equal sign `=` is an assignment operator. It does not mean that the values on the left and right side of the equation are the same. To evaluate, you need to use either two equals `==` or three equals `===`.
 
 ```js
-var a = 10;
-var b = a;
-console.log(b);
+int a = 10;
+int b = a;
+println(b);
 
-var c = 10;
-var d = 15;
+int c = 10;
+int d = 15;
 d = c;
-console.log(d);
+println(d);
 
-var e = 10;
+int e = 10;
 e = e + 5;
-console.log(e);
+println(e);
 
-var f = 12;
+int f = 12;
 f = f * 2;
-console.log(f);
+println(f);
 ```
   
 -----
