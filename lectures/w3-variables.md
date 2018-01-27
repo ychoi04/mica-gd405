@@ -5,14 +5,14 @@
 ### Mouse position
 `mouseX` and `mouseY` store the current mouse position in numbers.
 
-```js
-function draw() {
+```
+void draw() {
   ellipse(mouseX, mouseY, 100, 100);
 }
 ```
 
-```js
-function draw() {
+```
+void draw() {
   fill(mouseX, 0, 255);
   ellipse(mouseX, mouseY, 200, 200);
 }
@@ -21,8 +21,8 @@ function draw() {
 ### Previous mouse position
 `pmouseX` and `pmouseY` store the mouse position of the previous frame.
 
-```js
-function draw() {
+```
+void draw() {
  line(pmouseX, pmouseY, mouseX, mouseY);
 }
 ```
