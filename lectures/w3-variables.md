@@ -78,8 +78,13 @@ void draw() {
 ## Create your own variable
 A variable stores a value in the computer memory so that it can be used later in a program. Once you create a variable, you can use it as many times as you want. The value can also be changed while the program is running.
 
-```js
-int life = 3; // declare and initialize a variable
+```java
+int life; // declare
+life = 3; // initialize
+```
+
+```java
+int life = 3; // declare and initialize a variable at the same time
 ```
 
 When creating a variable, use a descriptive name.
