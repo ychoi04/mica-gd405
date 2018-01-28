@@ -140,7 +140,7 @@ void draw() {
 ```
   
 ## Print to console
-To print a value, use `console.log()`. This is useful to check the current value of any variables.
+To print a value, use `println()`. This is useful to check the current value of any variables.
 
 ```js
 String a = "How are you?"
