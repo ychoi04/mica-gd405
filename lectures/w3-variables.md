@@ -100,6 +100,18 @@ fill(col);
 ellipse(width/2, height/2, 100, 100);
 ```
 
+### Different types of variable
+
+```java
+int a = 3; // integer: whole numbers
+float b = -3.2 // float: decimal numbers
+boolean c = true // boolean: either true or false
+char d = 'A'; // character: a single character. use single quotes.
+color e = color(255, 0, 0); // color
+String f = "Hello!"; // string contains a string of text. use double quotes.
+```
+
+
 ### Variable scope
 When a variable is declared outside of any functions such as `setup()` or `draw()`, it can be used from anywhere in the program. This is called a *global variable*.
 ```js
