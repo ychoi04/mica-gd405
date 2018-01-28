@@ -36,7 +36,7 @@
 
 ### Week 3
 
-- [Arithmetic](lectures/w3/arithmetic.md)
+- [Arithmetic](lectures/w3-arithmetic.md)
 <!--
 - [Variables](lectures/w3/variables.md)
 
