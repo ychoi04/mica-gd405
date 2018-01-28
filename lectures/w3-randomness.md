@@ -48,7 +48,7 @@ The value returned from `noise()` is always between 0 and 1. You cannot set the 
 void draw() {
   background(200);
   
-  float x = noise(frameCount/100)*width; // the range between 0 and width
+  float x = noise(frameCount/100.0)*width; // the range between 0 and width
   ellipse(x, height/2, 100, 100);
 }
 ```
@@ -79,7 +79,7 @@ void draw() {
   ellipse(x, ry, 4, 4);
   line(px, pry, x, ry);
   
-  ny = noise(x/100)*height;
+  ny = noise(x/100.0)*height;
   fill(255, 0, 150);
   stroke(255, 0, 150);
   ellipse(x, ny, 4, 4);
