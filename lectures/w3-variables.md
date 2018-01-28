@@ -143,7 +143,7 @@ void draw() {
 To print a value, use `println()`. This is useful to check the current value of any variables.
 
 ```js
-String a = "How are you?"
+String a = "How are you?";
 println(a);
 
 int b = 3;
