@@ -6,7 +6,7 @@ Let's take a look at how we might set types -- arrange letters in space -- using
 ## Design letterforms
 First, you will need to have your letter design. Drawing directly with code is not very intuitive and easy to make mistakes, so it's best that you use the graph paper or digital tools like Adobe Illustrator. Here, I have an example of a few letters designed in Illustrator.
 
-![ilustrator design](../../images/type-setting-ai-design.png)
+![ilustrator design](../images/type-setting-ai-design.png)
 
 
 ## Convert to code
