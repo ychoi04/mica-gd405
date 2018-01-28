@@ -48,7 +48,7 @@ void draw() {
 
 ```js
 void setup() {
-  createCanvas(displayWidth, displayHeight);
+  size(displayWidth, displayHeight);
 }
 
 void draw() {
