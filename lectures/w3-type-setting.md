@@ -94,7 +94,7 @@ endShape();
 The letters are now overlapping each other, but that is okay. We will only draw one letter at a time. Now, instead of having to copy ten lines of code everytime we want to add a letter, how about we turn each letter into its own function? Then, it becomes modular code blocks that can be resued multiple times.
 
 ```js
-function drawB() {
+void drawB() {
   beginShape();
   vertex(10,10);
   vertex(10,40);
@@ -111,7 +111,7 @@ function drawB() {
 ```
 Now, instead of having to write long lines of code, we simply *call* a function to draw a letter as simple as below:
 ```js
-function draw() {
+void draw() {
   background(250);
   drawB();
 }
@@ -123,7 +123,7 @@ Now, all the letters have their own functions, so we don't even need to look ins
 What we want to be able to do is to tell the function x and y coordinate so the letter will be drawn at that location. So, I am adding two parameters `x` and `y` to the function definition. Parameters are basically variables that work in a function. And when we *call* the function, we supply the proper values.
 
 ```js
-function drawB(x, y) {
+void drawB(float x, float y) {
   beginShape();
   vertex(10,10);
   vertex(10,40);
@@ -140,7 +140,7 @@ function drawB(x, y) {
 We just created `x` and `y` parameters but we are not using them in any way. Let's go into the function and change a little bit. Basically, we want to use `x` and `y` to create some offset in drawing the letter. So, we can add `x` and `y` to each vertex as below:
 
 ```js
-function drawB(x, y) {
+void drawB(float x, float y) {
   beginShape();
   vertex(10 + x,10 + y);
   vertex(10 + x,40 + y);
@@ -156,11 +156,11 @@ function drawB(x, y) {
 But, because every vertex has to be moved with the same amount of offset, there is a simpler way of doing this, using transformation.
 
 ## Tranformation
-We will surround the drawing codes with `push()` and `pop()` block. This is to temporarily change the coordinate *system*, not individual points. `translate()` is similar to moving  positions, but note that we are actually moving the entire coordinate system. You can think of a canvas as a piece of paper, and anytime we use `push()`, we are adding another sheet on top of that, and `pop()` to remove that additional layer.
+We will surround the drawing codes with `pushMatrix()` and `popMatrix()` block. This is to temporarily change the coordinate *system*, not individual points. `translate()` is similar to moving  positions, but note that we are actually moving the entire coordinate system. You can think of a canvas as a piece of paper, and anytime we use `pushMatrix()`, we are adding another sheet on top of that, and `popMatrix()` to remove that additional layer.
 
 ```js
-function drawB(x, y) {
-  push();
+void drawB(float x, float y) {
+  pushMatrix();
   translate(x, y);
   beginShape();
   vertex(10,10);
@@ -172,20 +172,20 @@ function drawB(x, y) {
   vertex(40,40);
   vertex(10,40);
   endShape();
-  pop();
+  popMatrix();
 }
 ```
 Now, we can place the letters anywhere on screen.
 
 ```js
-function draw() {
+void draw() {
   background(250);
   drawB(250, 50);
 }
 ```
 Of course, we can place multiple letters as well.
 ```js
-function draw() {
+void draw() {
   background(250);
   drawB(200, 50);
   drawB(270, 50);
@@ -197,7 +197,7 @@ function draw() {
 
 *Exercise: Now, we are moving onto parametric type design. What other parameters can you add to control other typographic properties? Create variables and parameters and connect to your letter design.*
 
-![parametric type design](../../images/type-setting-parameters.png)
+![parametric type design](../images/type-setting-parameters.png)
 
 ## Further learning
 If you want to learn more about the transformation, visit [this link](http://genekogan.com/code/p5js-transformations/)
