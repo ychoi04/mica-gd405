@@ -200,7 +200,7 @@ void draw() {
 ![parametric type design](../images/type-setting-parameters.png)
 
 ## Further learning
-If you want to learn more about the transformation, visit [this link](http://genekogan.com/code/p5js-transformations/)
+If you want to learn more about the transformation, visit [this link](https://processing.org/tutorials/transform2d/) on 2D transformations.
 
 
 
