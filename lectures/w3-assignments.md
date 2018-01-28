@@ -14,7 +14,7 @@ We will practice using variables this week. Out goal is not to design a static f
 1. Think about how the design can be expanded to create a range of expressions.
 1. Think about how much you can push before it breaks.
 1. Apply at least two variables (`mouseX` and `mouseY`) instead of hard-coded numbers to control the typographic forms. For instance, apply them to letter width, height, thickness, x-height, etc.
-1. Test your sketch and 
+1. Test your sketch and refine as necessary.
 
 ### Deliverables
   - set each sketch size to 900 x 600 px.
