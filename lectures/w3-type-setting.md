@@ -10,7 +10,7 @@ First, you will need to have your letter design. Drawing directly with code is n
 
 
 ## Convert to code
-Once you have your design set, you will convert it into p5 coordinates. You can either use the graph paper to help you determine the coordinates or use the existing tools to [convert SVG to Canvas code](http://www.professorcloud.com/svg-to-canvas/).
+Once you have your design set, you will convert it into code. You can use the graph paper or info panel in AI to help you determine the coordinates.
 
 I already have done it, and here is the example code that we will use for this section.
 ```js
