@@ -150,11 +150,11 @@ int b = 3;
 println(b);
 ```
 
-What you print using `console.log()` does not show up on your canvas. You have to open up the JavasScript console from the browser.
+What you print using `println()` does not show up on your canvas. You have to open up the JavasScript console from the browser.
 
 
 ## Assignment operator
-One equal sign `=` is an assignment operator. It does not mean that the values on the left and right side of the equation are the same. To evaluate, you need to use either two equals `==` or three equals `===`.
+One equal sign `=` is an assignment operator. It does not mean that the values on the left and right side of the equation are the same. To evaluate, you need to use two equals `==`.
 
 ```js
 int a = 10;
