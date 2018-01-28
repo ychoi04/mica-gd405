@@ -95,7 +95,7 @@ int age = 21; // this is better.
 
 Variables are not limited to a number. You can store more complex data in a variable. Below is an example of color.
 ```js
-Color col = color(0, 200, 100);
+color col = color(0, 200, 100);
 fill(col);
 ellipse(width/2, height/2, 100, 100);
 ```
@@ -106,7 +106,7 @@ When a variable is declared outside of any functions such as `setup()` or `draw(
 int diam = 200; // global variable
 
 function setup() {
-  createCanvas(400, 400);
+  size(400, 400);
 }
 
 function draw() {
@@ -118,8 +118,8 @@ When a variable is declared within a function, it can only be used within the fu
 
 ```js
 void setup() {
-  createCanvas(400, 400);
-  var diam = 200; // local variable
+  size(400, 400);
+  int diam = 200; // local variable
 }
 
 void draw() {
