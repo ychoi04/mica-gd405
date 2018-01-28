@@ -100,7 +100,9 @@ fill(col);
 ellipse(width/2, height/2, 100, 100);
 ```
 
-### Different types of variable
+### Different types of variables
+
+There are a few different types of variables, and you need to use the right type depending on the data you work with.
 
 ```java
 int a = 3; // integer: whole numbers
