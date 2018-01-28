@@ -5,16 +5,17 @@ When creating generative design, you are thinking about the balance between cont
 ## Random function
 p5 has `random()` function that will give you a random number. When you give a single parameter, you set the maximum number it may return, and the two parameters for minimum and maximum number.
 
-```js
-function draw() {
-  var r = random(20);
-  console.log( r ); // a random number between 0 and 20
+```java
+void draw() {
+  float r = random(20);
+  println( r ); // a random number between 0 and 20
 }
 ```
-```js
-function draw() {
-  var r = random(10, 20);
-  console.log( r ); // a random number between 10 and 20
+
+```java
+void draw() {
+  float r = random(10, 20);
+  println( r ); // a random number between 10 and 20
 }
 ```
 It is just a number that `random()` returns. It is up to you however you want to use that number.
@@ -22,16 +23,16 @@ It is just a number that `random()` returns. It is up to you however you want to
 If you don't like getting a random number every frame, which makes your color or shape go crazy every frame, then, you can get a random number in `setup()` once at the beginning, store it int a variable and keep using it in `draw()`:
 
 ```js
-var col1;
-var col2;
+color col1;
+color col2;
 
-function setup() {
-  createCanvas(600, 600);
+void setup() {
+  size(600, 600);
   col1 = color( random(200), random(100), random(100, 200) );
   col2 = color( random(50,100), random(200), 0 );
 }
 
-function draw() {
+void draw() {
   background(col1);
   fill(col2);
   rect(50, 50, 100, 100);
@@ -44,10 +45,10 @@ While `random()` value does not have any relationship between the current and pr
 The value returned from `noise()` is always between 0 and 1. You cannot set the range, so you will have to do a little bit of arithmetic to get the range you want.
 
 ```js
-function draw() {
+void draw() {
   background(200);
   
-  var x = noise(frameCount/100)*width; // the range between 0 and width
+  float x = noise(frameCount/100)*width; // the range between 0 and width
   ellipse(x, height/2, 100, 100);
 }
 ```
@@ -56,20 +57,20 @@ function draw() {
 ## Comparing random and noise
 Let's try to visualize the difference between random and noise in a different way. The example below shows how the value changes over time using `random()` and `noise()`, respectively.
 ```js
-var x = 0; // x (keep increasing)
-var ry = 0; // random y
-var ny = 0; // noise y
-var px = x; // previous x
-var pry = ry; // previous random y
-var pny = ny; // previous noise y
+float x = 0; // x (keep increasing)
+float ry = 0; // random y
+float ny = 0; // noise y
+float px = x; // previous x
+float pry = ry; // previous random y
+float pny = ny; // previous noise y
 
-function setup() {
-  createCanvas(800, 200);
+void setup() {
+  size(800, 200);
   background(250);
   frameRate(15);
 }
 
-function draw() {
+void draw() {
   
   ry = random(0, height);
   
@@ -90,14 +91,14 @@ function draw() {
   x += 10;
 }
 
-function mousePressed() {
+void mousePressed() {
   background(250);
   x = 0;
   px = x;
 }
 ```
 
-![random and noise comparison](../../images/random-noise-comparison.png)
+![random and noise comparison](../images/random-noise-comparison.png)
 
 -----
 *Exercise: Go back to some of your old sketches and try using `random()` and `noise()` in different situations. Play with their parameters to get a feel for it.*
