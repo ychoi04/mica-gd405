@@ -35,9 +35,11 @@
 - [assignments](lectures/w2-assignments.md)
 
 ### Week 3
+
+- [Arithmetic](lectures/w3/arithmetic.md)
 <!--
 - [Variables](lectures/w3/variables.md)
-- [Arithmetic](lectures/w3/arithmetic.md)
+
 - [Randomness](lectures/w3/randomness.md)
 - [Type functions](lectures/w2/type-functions.md)
 - [Type Setting - function and transformation](lectures/w3/type-setting.md)
