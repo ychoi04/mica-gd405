@@ -27,8 +27,8 @@ void draw() {
 }
 ```
 
-### Display width and height
-`width` and `height` variables store the width and height of the current canvas.
+### Window width and height
+`width` and `height` variables store the width and height of the current window.
 
 ```js
 void setup() {
