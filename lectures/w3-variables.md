@@ -117,11 +117,11 @@ When a variable is declared outside of any functions such as `setup()` or `draw(
 ```js
 int diam = 200; // global variable
 
-function setup() {
+void setup() {
   size(400, 400);
 }
 
-function draw() {
+void draw() {
   ellipse(width/2, height/2, diam, diam);
 }
 ```
