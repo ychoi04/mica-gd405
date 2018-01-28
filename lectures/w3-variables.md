@@ -57,6 +57,15 @@ void draw() {
 }
 ```
 
+### Fullscreen
+If you want to run your sketch in fullscreen, instead of `size()`, use `fullScreen()` function.
+
+```java
+void setup() {
+  fullScreen();
+}
+```
+
 ### Counting frames
 `frameCount` stores the number of frames that have passed since the sketch started running. As the sketch keeps running, the value will keep increasing.
 
