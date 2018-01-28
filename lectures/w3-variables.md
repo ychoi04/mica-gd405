@@ -27,7 +27,7 @@ void draw() {
 }
 ```
 
-### Canvas width and height
+### Display width and height
 `width` and `height` variables store the width and height of the current canvas.
 
 ```js
@@ -43,12 +43,12 @@ void draw() {
 }
 ```
 
-### Window size
-`windowWidth` and `windowHeight` store the size of the browser window. As you resize the window, the values will change.
+### Display size
+`displayWidth` and `displayHeight` store the size of the browser window. As you resize the window, the values will change.
 
 ```js
 void setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(displayWidth, displayHeight);
 }
 
 void draw() {
