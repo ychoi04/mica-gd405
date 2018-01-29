@@ -183,7 +183,7 @@ void draw() {
   drawB(250, 50);
 }
 ```
-Of course, we can place multiple letters as well.
+Of course, we can place multiple letters as well by calling the same functions multiple times. We are using the same function *definition* to call the *same* function.
 ```js
 void draw() {
   background(250);
