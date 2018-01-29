@@ -40,11 +40,9 @@
 - [Randomness](lectures/w3-randomness.md)
 - Basic Typography in Processing
   - [Tutorial](https://processing.org/tutorials/typography/) from Processing.org
-
+- [Type Setting](lectures/w3-type-setting.md) - function and transformation
 
 <!--
-- [Type functions](lectures/w2/type-functions.md)
-- [Type Setting - function and transformation](lectures/w3/type-setting.md)
 - [assignments](lectures/w3/w3-assignments.md)
 
 ### Week 4
