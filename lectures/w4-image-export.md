@@ -4,7 +4,7 @@ Let's take a look at a few different methods to export images.
 ## Save
 Use these functions to save a single frame.
 
-- [`save()`](http://p5js.org/reference/#/p5/save)
+- [`save(filename)`](https://processing.org/reference/save_.html) will save a single image file. you need to supply the file name you want to use as in `save(myImage.png)`.
 
 ## Screenshot
 You can always capture a simple screenshot. On Mac, press CMD + Shift + 3 (the whole screen) or CMD + Shift + 4 (a selection).
