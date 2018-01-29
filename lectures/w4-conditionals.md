@@ -6,16 +6,16 @@ Conditionals are everywhere in softwares. Anytime, you want to diverge and creat
 A boolean expression can be evaluated to either true or false. It will always be either true or false.
 
 ```js
-console.log(3 < 4);
-console.log(3 + 4 == 7);
-console.log(4 + 4 < 7);
+println(3 < 4);
+println(3 + 4 == 7);
+println(4 + 4 < 7);
 ```
 
 ## If statement
 We can use the boolean expression to run the code only when a condition is met (true):
 
 ```js
-function draw() {
+void draw() {
   background(0, 255, 0);
   if (mouseX < width/2) {
     background(255, 0, 0);
@@ -26,7 +26,7 @@ function draw() {
 We can improve the previous example by adding `else` - what happens when the condition is not met (false):
 
 ```js
-function draw() {
+void draw() {
   if (mouseX < width/2) {
     background(255, 0, 0);
   } else {
@@ -38,7 +38,7 @@ function draw() {
 We can check multiple conditions by using `if`, `else if`, `else` and `&&`(and) nd `||`(or):
 
 ```js
-function draw() {
+void draw() {
 	background(200);
 	
   if (mouseX < width/3) {
@@ -55,15 +55,15 @@ function draw() {
 We can set the condition to check if the mouse is pressed, using the system variable `mouseIsPressed`. This is a boolean variable, meaning it will always be either true or false.
 
 ```js
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   textAlign(CENTER, CENTER);
 }
 
-function draw() {
+void draw() {
   background(200);
 	
-  if (mouseIsPressed == true) {
+  if (mousePressed == true) {
     textSize(128);
   } else {
     textSize(24);
@@ -75,15 +75,15 @@ function draw() {
 We can also check which mouse button is pressed by using nested if statements.
 
 ```js
-function setup() {
-	createCanvas(400, 400);
+void setup() {
+	size(400, 400);
 	textAlign(CENTER, CENTER);
 }
 
-function draw() {
+void draw() {
   background(200);
 	
-  if (mouseIsPressed == true) {
+  if (mousePressed == true) {
     textSize(128);
 		if (mouseButton == LEFT) {
 			fill(255, 0, 0);
@@ -102,16 +102,16 @@ function draw() {
 Similarly, we can check if a key is pressed.
 
 ```js
-function setup() {
-	createCanvas(400, 400);
+void setup() {
+	size(400, 400);
 	background(200);
 	textAlign(CENTER, CENTER);
 }
 
-function draw() {
+void draw() {
   
 	textSize(160);
-	if (keyIsPressed) {
+	if (keyPressed) {
 		fill(random(255));
 		text(key, random(width), random(height));
 	}
@@ -123,13 +123,13 @@ Notice that as long as you hold down a key, the if statement gets checked every 
 ### Key press function
 
 ```js
-function draw() {
+void draw() {
   
 }
 
-function keyTyped() {
+void keyTyped() {
 	textSize(160);
-	if (keyIsPressed) {
+	if (keyPressed) {
 		fill(random(255));
 		text(key, random(width), random(height));
 	}
@@ -141,7 +141,7 @@ Here, I am suing `keyTyped()`, not `keyPressed()` so that I can differentiate be
 ### Saving image with keypress
 
 ```js
-function keyTyped() {
+void keyPressed() {
 	if (key == '=') {
 		save(month() + "-" + day() + "-" + hour() + "-" + minute() + "-" + second() + ".png");
 	}
