@@ -50,10 +50,10 @@ vertex(160,40);
 vertex(190,40);
 endShape();
 ```
-The code above will draw b, c and d. This is great if you wanted to just draw these three letters one after the other. But what if we wanted to form a different letter combinations? Everytime you add a letter on screen, you will have to reconfigure the coordinates of every vertex and that's not very efficient.
+The code above will draw b, c and d. This is great if you wanted to just draw these three letters one after the other. But what if we wanted to form a different letter combinations? Every time you add a letter on screen, you will have to reconfigure the coordinates of every vertex and that's not very efficient.
 
 ## Draw from the origin
-First thing we can do is to remap the coordinates so every letter will be drawn from the origin like this:
+First thing we can do is to remap the coordinates so every letter will be drawn from the origin `(0, 0)` like this:
 ```js
 beginShape();
 vertex(10,10);
