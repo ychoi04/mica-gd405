@@ -1,22 +1,18 @@
 # How to export images
-Let's take a look at a few different methods to export images from p5 sketches.
-
-## Right-click
-p5 sketches use HTML5 Canvas and you can simply right-click on the canvas and Save Image As...
+Let's take a look at a few different methods to export images.
 
 ## Save
 Use these functions to save a single frame.
 
 - [`save()`](http://p5js.org/reference/#/p5/save)
-- [`saveCanvas()`](http://p5js.org/reference/#/p5/saveCanvas)
 
 ## Screenshot
-You can always capture a simple screenshot. On Mac, press CMD + Shift + 4.
+You can always capture a simple screenshot. On Mac, press CMD + Shift + 3 (the whole screen) or CMD + Shift + 4 (a selection).
 
 -----
 
 ## Video recording
-`saveFrames()` in p5.js does not seem to be reliable. The best way to capture your work as a video is to use Quicktime Player's screen recording.
+The best way to capture your work as a video is to use Quicktime Player's screen recording.
 
 ## Saving high resolution image
 If you want to save an image that is larger than your screen, you can use the this technique. Say, you have this sketch:
@@ -63,7 +59,4 @@ function draw() {
 }
 ```
 
------
-
-p5.js is best when used interactively within browsers. If you need to save images or video for other purposes, p5.js may not be the best option - you can try to convert into Processing sketch, which will provide many reliable options for exporting high resolution images, vector format graphics and image sequences.
 
