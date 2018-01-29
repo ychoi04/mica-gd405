@@ -2,9 +2,15 @@
 Let's take a look at a few different methods to export images.
 
 ## Save
-Use these functions to save a single frame.
+[`save(filename)`](https://processing.org/reference/save_.html) will save a single image file. you need to supply the file name you want to use as in `save("myImage.png")`. If you call this function inside `draw()`, your sketch will save a new image *every frame* and overwrite the previous one. This is not a good way of using this function. Instead, use mouse or key interactions to save a file:
 
-- [`save(filename)`](https://processing.org/reference/save_.html) will save a single image file. you need to supply the file name you want to use as in `save(myImage.png)`.
+```java
+void keyPressed() {
+  if (key == 's') {
+    save("export.png");
+  }
+}
+```
 
 ## Screenshot
 You can always capture a simple screenshot. On Mac, press CMD + Shift + 3 (the whole screen) or CMD + Shift + 4 (a selection).
