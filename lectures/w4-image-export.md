@@ -2,24 +2,55 @@
 Let's take a look at a few different methods to export images.
 
 ## Save
-[`save(filename)`](https://processing.org/reference/save_.html) will save a single image file. you need to supply the file name you want to use as in `save("myImage.png")`. If you call this function inside `draw()`, your sketch will save a new image *every frame* and overwrite the previous one. This is not a good way of using this function. Instead, use mouse or key interactions to save a file:
+`save(filename)` will save a single image file. you need to supply the file name you want to use as in `save("myImage.png")`. Look at [the reference]((https://processing.org/reference/save_.html)) for more info. If you call this function inside `draw()`, your sketch will save a new image *every frame* and overwrite the previous one. This is not a good way of using this function. Instead, use mouse or key interactions to save a file:
 
 ```java
+void setup() {
+ size(400, 400);
+}
+
+void draw() {
+  line(0, 0, width, height);
+  ellipse(mouseX, mouseY, 40, 40);
+}
+
 void keyPressed() {
-  if (key == 's') {
-    save("export.png");
-  }
+ if (key == 's') {
+  save("export.png"); 
+ }
+}
+```
+
+## Save frame
+`saveFrame()` will save a series of frames from your running sketch. This is great for capturing image sequences for converting to video (in After Effects or Premiere). Look at [the reference](https://processing.org/reference/saveFrame_.html) for more info.
+
+As each frame has the unique frame number, your exported images will not be overwritten.
+
+```java
+void setup() {
+ size(400, 400);
+}
+
+void draw() {
+  line(0, 0, width, height);
+  ellipse(mouseX, mouseY, 40, 40);
+}
+
+void keyPressed() {
+ if (key == 's') {
+  saveFrame();
+  // saveFrame("#####.png");
+ }
 }
 ```
 
 ## Screenshot
 You can always capture a simple screenshot. On Mac, press CMD + Shift + 3 (the whole screen) or CMD + Shift + 4 (a selection).
 
------
-
 ## Video recording
 The best way to capture your work as a video is to use Quicktime Player's screen recording.
 
+<!--
 ## Saving high resolution image
 If you want to save an image that is larger than your screen, you can use the this technique. Say, you have this sketch:
 
@@ -64,5 +95,5 @@ function draw() {
 	text("a", 75, 125);
 }
 ```
-
+-->
 
