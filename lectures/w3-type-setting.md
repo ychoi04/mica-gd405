@@ -195,7 +195,7 @@ void draw() {
 -----
 *Exercise: Convert your own letter design code using functions and parameters. Write a few different words by calling them multiple times.*
 
-*Exercise: Now, we are moving onto parametric type design. What other parameters can you add to control other typographic properties? Create variables and parameters and connect to your letter design.*
+*Exercise: Now, we are moving onto parametric type design. What other parameters can you add to control other typographic properties? Create variables and parameters and connect to your letter design.* Below is an example of adding a 'slant' parameter.
 
 ![parametric type design](../images/type-setting-parameters.png)
 
