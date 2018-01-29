@@ -37,7 +37,7 @@
 ### Week 3
 - [Variables](lectures/w3-variables.md)
 - [Arithmetic](lectures/w3-arithmetic.md)
-- [Randomness](lectures/w3/randomness.md)
+- [Randomness](lectures/w3-randomness.md)
 - Basic Typography in Processing
   - [Tutorial](https://processing.org/tutorials/typography/) from Processing.org
 
