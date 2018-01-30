@@ -40,10 +40,10 @@
 - [Randomness](lectures/w3-randomness.md)
 - Basic Typography in Processing
   - [Tutorial](https://processing.org/tutorials/typography/) from Processing.org
-- [Type Setting](lectures/w3-type-setting.md) - function and transformation
 - [assignments](lectures/w3-assignments.md)
 
 ### Week 4
+- [Type Setting](lectures/w3-type-setting.md) - function and transformation
 <!--
 - [How to export to Image formats](lectures/w4/image-export.md)
 - [How to export to SVG](lectures/w4/vector-export.md)
@@ -92,7 +92,6 @@
 - [assingments](lectures/w12/w12-assignments.md)
 
 ### Week 14
-
 - [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
 
 -->
