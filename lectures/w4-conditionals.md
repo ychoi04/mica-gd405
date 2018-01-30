@@ -148,7 +148,7 @@ void draw() {
   
 }
 
-void keyTyped() {
+void keyPressed() {
 	textSize(160);
 	if (keyPressed) {
 		fill(random(255));
