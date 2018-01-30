@@ -45,15 +45,15 @@
 ### Week 4
 - [Type Setting](lectures/w3-type-setting.md) - function and transformation
 <!--
-- [How to export to Image formats](lectures/w4/image-export.md)
-- [How to export to SVG](lectures/w4/vector-export.md)
+
 - [Conditionals](lectures/w4/conditionals.md)
 - [Type Setting - page setting](lectures/w4/type-setting-conditionals.md)
 - [assignments](lectures/w4/w4-assignments.md)
 
 ### Week 5
-- [Converting p5 to Processing (Incomplete Guide)](lectures/w5/convert-p5-to-processing.md)
-- Download [example files](files/pdf-saving-in-processing.zip) for saving PDF in Processing.
+- [How to export to Image formats](lectures/w4/image-export.md)
+- [How to export to SVG](lectures/w4/vector-export.md)
+  - Download [example files](files/pdf-saving-in-processing.zip) for saving PDF in Processing.
 - Printing at [Art Tech Center](https://www.mica.edu/Academic_Services_and_Libraries/Technology_Systems_and_Services/Technology_Facilities/Art_Tech_Center.html)
 - [assignments](lectures/w5/w5-assignments.md)
 
