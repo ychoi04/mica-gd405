@@ -1,5 +1,5 @@
 # Conditionals
-Conditionals are everywhere in softwares. Anytime, you want to diverge and create different results based on different situations, you will use the conditionals. Here, we will look at a few simple examples.
+Conditionals are everywhere in softwares. Anytime you want to diverge and create different results based on different situations, you will use the conditionals. Here, we will look at a few simple examples.
 
 ## Boolean
 
@@ -34,6 +34,27 @@ void draw() {
   }
 }
 ```
+
+Another example:
+
+```java
+void setup() {
+ size(400, 400); 
+}
+
+void draw() {
+  background(255);
+  fill(0);
+  if (mouseX > width/2) {
+    rect(width/2, 0, width/2, height);
+  } else {
+    rect(0, 0, width/2, height);
+  }
+}
+```
+
+*Exercise: Can you develop the example above so that you can hover over four different quadrants of your sketch?*
+
 ## else if, AND(&&), OR(||)
 We can check multiple conditions by using `if`, `else if`, `else` and `&&`(and) nd `||`(or):
 
