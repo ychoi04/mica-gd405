@@ -44,6 +44,8 @@
 
 ### Week 4
 - [Type Setting](lectures/w3-type-setting.md) - function and transformation
+  - [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
+  - [p5.js transformation tutorial](https://creative-coding.decontextualize.com/transformations-and-functions/)
 <!--
 - [Conditionals](lectures/w4/conditionals.md)
 - [assignments](lectures/w4/w4-assignments.md)
