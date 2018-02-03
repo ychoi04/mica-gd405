@@ -18,6 +18,9 @@ We will continue with your type design from the last week.
 1. *(This step is optional.)* Organize your code so that `mouseX` and `mouseY` can control each of the two parameters you added in the last step.
 1. In your p5 sketch, write a few different words you can create out of the letters you designed. You might use a website like [this](http://www.litscape.com/word_tools/contains_only.php).
 
+- Create functions for drawing each letter. For example, all the drawing code for A will be stored in `drawA()` function, so that when you call the function, you will be able to draw the letter.
+- On top of that, use the function parameters for things such as x, y position and your own parameters. For example, `drawA(x, y, sw)`.
+
 ### Deliverables
 - 5 to 7 screenshots of some design variations on Google Drive Week 3 folder.
 - The Codepen link of your sketch on Google Drive.
