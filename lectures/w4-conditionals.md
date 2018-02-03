@@ -109,7 +109,7 @@ void draw() {
     textSize(128);
 		if (mouseButton == LEFT) {
 			fill(255, 0, 0);
-		} else {
+		} else if (mouseButton == RIGHT) {
 			fill(0, 255, 0);
 		}
   } else {
@@ -151,20 +151,18 @@ void draw() {
 
 void keyPressed() {
 	textSize(160);
-	if (keyPressed) {
-		fill(random(255));
-		text(key, random(width), random(height));
-	}
+	fill(random(255));
+	text(key, random(width), random(height));
 }
 ```
 
-Here, I am suing `keyTyped()`, not `keyPressed()` so that I can differentiate between uppercase and lowercase characters.
-
 ### Saving image with keypress
+
+You can add the function below to your sketch to save out an image as PNG with the timestamp.
 
 ```js
 void keyPressed() {
-	if (key == '=') {
+	if (key == 's') {
 		save(month() + "-" + day() + "-" + hour() + "-" + minute() + "-" + second() + ".png");
 	}
 }
@@ -172,7 +170,7 @@ void keyPressed() {
 
 
 -----
-*Exercise: Look at [p5.js Reference](http://p5js.org/reference/). There are a few different functions related to key presses. See if you can connect different keys to draw different shapes. For example, can you connect arrow keys to move your shape up, down, left and right?*
+*Exercise: Look at input section of [Processing reference](https://processing.org/reference/). There are a few different functions and variables related to key presses. See if you can connect different keys to draw different shapes. For example, can you connect arrow keys to move your shape up, down, left and right?*
 
 *Exercise: Can you create a simple painting program, where each key is mapped to a different color?*
 
