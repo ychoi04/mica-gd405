@@ -7,6 +7,23 @@ Watch from 7.1 to 7.6 from [The Coding Train](https://www.youtube.com/playlist?l
 Post a short summary *and* your thoughts on the journal:
 http://www.stripesf.com/On-Speculation
 
+
+
+### Part 2
+For part 2, you may or may not use the same program from the part 1 as the interaction is not required. You could instead create a separate program and it may give you more flexibility. After all, what we are creating is *a system*, so there can be many different applications.
+
+- 10 different static compositions showcasing the capability/flexibility of your computational type system. Show different parametric combinations - a range of expressions. Use phrases or sentences of your choice. Keep the background white.
+- Another image that contains all the letters you have designed so far. Keep the background white.
+- Try to export high-resolution images.
+- Upload all the images on Google Drive Week 4 folder.
+- Codepen link should be posted on Google Drive.
+
+*Feel free to use Processing to export high quality images.*
+
+
+
+
+
 ## Type design
 
 1. Design all twenty six characters.
