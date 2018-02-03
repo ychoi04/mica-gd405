@@ -74,7 +74,7 @@ void draw() {
 
 ## Events
 ### Mouse press
-We can set the condition to check if the mouse is pressed, using the system variable `mouseIsPressed`. This is a boolean variable, meaning it will always be either true or false.
+We can set the condition to check if the mouse is pressed, using the system variable `mousePressed`. This is a boolean variable, meaning it will always be either true or false. If you press your mouse, `mousePressed` will be `true`, if not, `false`.
 
 ```js
 void setup() {
