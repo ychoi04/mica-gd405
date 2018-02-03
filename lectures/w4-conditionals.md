@@ -53,7 +53,7 @@ void draw() {
 }
 ```
 
-*Exercise: Can you develop the example above so that you can hover over four different quadrants of your sketch? You will need to use `if`, `else if` and `else`*
+*Exercise: Can you develop the example above so that you can hover over four different quadrants of your sketch? You will need to use `if`, `else if` and `else`.*
 
 ## else if, AND(&&), OR(||)
 We can check multiple conditions by using `if`, `else if`, `else` and `&&`(and) nd `||`(or):
