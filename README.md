@@ -47,9 +47,9 @@
   - [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
   - [p5.js transformation tutorial](https://creative-coding.decontextualize.com/transformations-and-functions/)
 - [Conditionals](lectures/w4/conditionals.md)
-<!--
 - [assignments](lectures/w4-assignments.md)
 
+<!--
 ### Week 5
 - [Type Setting - page setting](lectures/w4/type-setting-conditionals.md)
 - [How to export to Image formats](lectures/w4/image-export.md)
