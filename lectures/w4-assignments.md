@@ -8,7 +8,7 @@ Watch the videos, follow along, take notes and bring back questions:
 
 ## Type Design
 
-We will continue designing letters and this week, we will have a better structure with functions and flexibility with parameters. It is also a good idea to start thinking about making a full set of letters as that will be our next goal.
+We will continue designing letters and this week, we will have a better structure with functions and flexibility with parameters. It is also a good idea to start thinking about making a full set of letters as that will be our future goal.
 
 1. Look back at your previous letter design assignments and choose one design that you want to develop further. (If you have new ideas, you can develop them instead as long as you meet the requirements.)
 1. Design 4 additional letters on top of what you already have (CODE or TYPE or FORM). In total, you will have at least 7 letters designed.
