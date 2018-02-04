@@ -7,25 +7,31 @@ Watch the videos, follow along, take notes and bring back questions:
 -----
 
 ## Type Design
-We will continue with your type design from the last week.
 
-1. Look back at your previous letter design assignment.
-1. Choose one design (or a combination) that you want to develop further.
-1. Design a few more letters first - all the vowels - `a`, `e`, `i`, `o` and `u` + consonants - `h`, `m`, `b`, `g` and `s`. It is suggested that you use Illustrator or graph paper to plot each letter before going into coding.
-1. Now, think about what typographic properties you can control by turning them into variables/parameters. Examples include letter width, letter height, x-height, serif, weight, slant, spacing, tracking, color, contrast, roundness, etc.
-1. Convert each letter drawing code into a function and parameters.
-1. You must be able to set the type at any location by adding `x` and `y` parameters. Plus, add two optional parameters of your choice.
-1. *(This step is optional.)* Organize your code so that `mouseX` and `mouseY` can control each of the two parameters you added in the last step.
-1. In your p5 sketch, write a few different words you can create out of the letters you designed. You might use a website like [this](http://www.litscape.com/word_tools/contains_only.php).
-
-- Add more structure by using functions and parameters. This will enable you to control different typographic properties and place the letters anywhere you want on screen.
-- Create functions for drawing each letter. For example, all the drawing code for A will be stored in `drawA()` function, so that when you call the function, you will be able to draw the letter.
-- On top of that, use the function parameters for things such as x, y position and your own parameters. For example, `drawA(x, y, sw)`.
+1. Look back at your previous letter design assignments and choose one design that you want to develop further. (If you have new ideas, you can develop them instead as long as you meet the requirements.)
+1. Design more letters. In total, you will have all the vowels (`a`, `e`, `i`, `o`, `u`) + 3 consonants.
+1. Now, think about what typographic properties you can control by turning them into *variables/parameters*. Examples include letter width, letter height, x-height, serif, weight, slant, spacing, tracking, color, contrast, roundness, etc.
+1. Create functions for drawing each letter. For example, all the drawing code for A will be stored in `drawA()` function, so that when you call the function, you will be able to draw the letter.
+1. You must be able to set the type at any location by adding `x` and `y` parameters. Plus, add **two** more parameters of your choice. So, your function may look like this:
+  ```
+  void drawA(float x, float y, float sw, float col) {
+    // drawing code goes here
+    beginShape();
+    .
+    .
+    translate(x, y);
+    strokeWeight(sw);
+    fill(col);
+    .
+    .
+  }
+  ```
+1. In your sketch, write a few different words you can create out of the letters you designed.
 
 ### Deliverables
-- 5 to 7 screenshots of some design variations on Google Drive Week 3 folder.
-- The Codepen link of your sketch on Google Drive.
-- Use comments - `//` and `/* */` to describe what each block does in your program. 
+- 5 to 7 screenshots of some design variations (different combina.
+- Organize your code! Use comments - `//` and `/* */` to describe what each block does in your program. 
+- Post everything on Google Drive.
 
 ### Inspirations
 - [Wim Crouwel](https://www.google.com/search?q=wim+crouwel&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiPv7Sz6urRAhUD5CYKHU1bC08Q_AUICCgB&biw=1920&bih=1080#tbm=isch&q=wim+crouwel+type+design)
