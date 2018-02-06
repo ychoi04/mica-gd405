@@ -48,9 +48,9 @@
   - [p5.js transformation tutorial](https://creative-coding.decontextualize.com/transformations-and-functions/)
 - [assignments](lectures/w4-assignments.md)
 
-<!--
 ### Week 5
 - [Conditionals](lectures/w5-conditionals.md)
+<!--
 - [Type Setting - page setting](lectures/w5-type-setting-conditionals.md)
 - [How to export to Image formats](lectures/w4/image-export.md)
 - [How to export to PDF](lectures/w4/vector-export.md)
