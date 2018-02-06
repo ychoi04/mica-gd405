@@ -10,8 +10,8 @@ And then, we pushed further by adding more parameters - this is where you need t
 In terms of adding more parameters, I will continue with my example. For the simplicity's sake, I will only develop my letter A and B.
 
 ```js
-function drawA(x, y) {
-	push();
+void drawA(float x, float y) {
+	pushMatrix();
 	translate(x, y);
 	beginShape();
 	vertex(10,50);
@@ -25,11 +25,11 @@ function drawA(x, y) {
 	vertex(50,60);
 	endShape();
 	line(60, 100, 50, 90);
-	pop();
+	popMatrix();
 }
 
-function drawB(x, y) {
-	push();
+void drawB(float x, float y) {
+	pushMatrix();
 	translate(x, y);
 	beginShape();
 	vertex(10,10);
@@ -41,7 +41,7 @@ function drawB(x, y) {
 	vertex(40,40);
 	vertex(10,40);
 	endShape();
-	pop();
+	popMatrix();
 }
 ```
 
@@ -54,11 +54,11 @@ For the roundness, I realized I can add additional beginning and ending points a
 The results are as below:
 
 ```js
-function drawA(x, y, sl, round) {
-	push();
+void drawA(float x, float y, float sl, boolean round) {
+	pushMatrix();
 	translate(x, y);
 	beginShape();
-  if (round) curveVertex(10+sl*4/8,50);
+  	if (round) curveVertex(10+sl*4/8,50);
 	vertex(10+sl*4/8,50);
 	vertex(20+sl*5/8,40);
 	vertex(50+sl*5/8,40);
@@ -71,11 +71,11 @@ function drawA(x, y, sl, round) {
 	if (round) curveVertex(50+sl*3/8,60);
 	endShape();
 	line(60-sl*1/8, 100, 50, 90);
-	pop();
+	popMatrix();
 }
 
-function drawB(x, y, sl, round) {
-	push();
+void drawB(float x, float y, float sl, boolean round) {
+	pushMatrix();
 	translate(x, y);
 	beginShape();
 	if (round) curveVertex(10+sl,10);
@@ -89,14 +89,14 @@ function drawB(x, y, sl, round) {
 	vertex(10+sl*5/8,40);
 	if (round) curveVertex(10+sl*5/8,40);
 	endShape();
-	pop();
+	popMatrix();
 }
 ```
 
 Anytime you are adding something, make sure you *test* often.
 
 ```js
-function draw() {
+void draw() {
 	background(240);
 	drawA(100, 100, 20, false);
 	drawB(180, 100, -20, true);
@@ -106,14 +106,14 @@ function draw() {
 Great. It works. These functions you built now can take any values. If you wanted to have a single variable that controls the slant of all the letters, you can create a global variable like this:
 
 ```js
-var slant = 20; // change this value
+float slant = 20; // change this value
 
-function setup() {
-	createCanvas(600, 600);
+void setup() {
+	size(600, 600);
 	noFill();
 }
 
-function draw() {
+void draw() {
 	background(240);
 	drawA(100, 100, slant, true);
 	drawB(170, 100, slant, true);
@@ -130,12 +130,12 @@ If you think about our program as a typewriter, the typewriter needs to know whe
 In our sketch, that's what variables are for - to remember the current position. Everytime we draw a letter, we move the `x` position to the right. When there is a line break, we will need to update the `y` position:
 
 ```js
-var x = 0;
-var y = 0;
-var slant = -10;
+float x = 0;
+float y = 0;
+float slant = -10;
 
-function setup() {
-	createCanvas(600, 600);
+void setup() {
+	size(600, 600);
 	noFill();
 	
 	drawA(x, y, slant, true);
@@ -150,27 +150,27 @@ function setup() {
 Let's move this code block into `keyTyped()` function so that letter drawing functions will get called when a user types.
 
 ```js
-var x = 0;
-var y = 0;
-var slant = -10;
+float x = 0;
+float y = 0;
+float slant = -10;
 
-function setup() {
-	createCanvas(600, 600);
+void setup() {
+	size(600, 600);
 	noFill();
 }
 
-function draw() {
+void draw() {
 	// nothing in draw
 }
 
-function keyTyped() {
-	if (key == "a") {
+void keyPressed() {
+	if (key == 'a') {
 		drawA(x, y, slant, false);
 		x += 60;
-	} else if (key == "b") {
+	} else if (key == 'b') {
 		drawB(x, y, slant, false);
 		x += 60;
-	} else if (key == " ") {
+	} else if (key == ' ') {
 		x += 60;
 	}
 }
@@ -182,17 +182,17 @@ You can now type with your keyboard and each drawing functions will be called (w
 A line break here is simply adding some amount of number to the `y` position. I added a few lines of code into `keyTyped()` function definition. What it does is when `x` becomes greater than `width - 60`, set the `x` back to zero (remember the typewriter carriage.), and add `100` to `y`.
 
 ```js
-function keyTyped() {
-	if (key == "a") {
+void keyPressed() {
+	if (key == 'a') {
 		drawA(x, y, slant, false);
 		x += 60;
-	} else if (key == "b") {
+	} else if (key == 'b') {
 		drawB(x, y, slant, false);
 		x += 60;
-	} else if (key == "c") {
+	} else if (key == 'c') {
 		drawC(x, y, slant, false);
 		x += 60;
-	} else if (key == " ") {
+	} else if (key == ' ') {
 		x += 60;
 	}
 
@@ -209,20 +209,20 @@ With this type system, we can start adding more variables and we will be able to
 We add two more global variables, `xmargin` and `ymargin`, and we just need to use them. First place to use it is when we set the default `x` and `y` position in `setup()`.
 
 ```js
-var x;
-var y;
-var xmargin = 20;
-var ymargin = 20;
-var slant = -10;
+float x;
+float y;
+float xmargin = 20;
+float ymargin = 20;
+float slant = -10;
 
-function setup() {
-	createCanvas(600, 600);
+void setup() {
+	size(600, 600);
 	noFill();
 	x = xmargin;
 	y = ymargin;
 }
 
-function draw() {
+void draw() {
 	// nothing here
 }
 ```
@@ -230,17 +230,17 @@ function draw() {
 Then, anytime we need to reset the `x` position, instead of putting it back to zero, we put it back to `xmargin` value.
 
 ```js
-function keyTyped() {
-	if (key == "a") {
+void keyPressed() {
+	if (key == 'a') {
 		drawA(x, y, slant, false);
 		x += 60;
-	} else if (key == "b") {
+	} else if (key == 'b') {
 		drawB(x, y, slant, false);
 		x += 60;
-	} else if (key == "c") {
+	} else if (key == 'c') {
 		drawC(x, y, slant, false);
 		x += 60;
-	} else if (key == " ") {
+	} else if (key == ' ') {
 		x += 60;
 	}
 
