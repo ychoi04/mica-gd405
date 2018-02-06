@@ -29,6 +29,7 @@ We will continue designing letters and this week, we will have a better structur
   }
   ```
 1. In your sketch, write a few different words you can create out of the letters you designed.
+1. You may use `mouseX` and `mouseY` when you *call* the drawing functions, but the functions themselves should not be connected to the mouse position. It should be able to take any kind of input values.
 
 ### Deliverables
 - 5 to 7 screenshots of some design variations (different combinations of your parameters).
