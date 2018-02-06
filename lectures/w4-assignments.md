@@ -19,6 +19,7 @@ We will continue designing letters and this week, we will have a better structur
 1. You may use `mouseX` and `mouseY` when you *call* the drawing functions, but the functions themselves should not be connected to the mouse position. It should be able to take any kind of input values.
 
  ```
+ // note that the function definition itself does not have any mouse-related variables. that's by design.
   void drawA(float x, float y, float sw, float col) {
     // drawing code goes here
     beginShape();
