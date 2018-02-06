@@ -34,6 +34,7 @@ We will continue designing letters and this week, we will have a better structur
   ```
 
 ### Deliverables
+- Try creating a few different words with your letters.
 - 5 to 7 screenshots of some design variations (different combinations of your parameters).
 - Organize your code! Use comments - `//` and `/* */` to describe what each block does in your program. 
 - Post everything on Google Drive.
