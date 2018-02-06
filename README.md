@@ -46,12 +46,12 @@
 - [Type Setting](lectures/w3-type-setting.md) - function and transformation
   - [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
   - [p5.js transformation tutorial](https://creative-coding.decontextualize.com/transformations-and-functions/)
-- [Conditionals](lectures/w4/conditionals.md)
 - [assignments](lectures/w4-assignments.md)
 
 <!--
 ### Week 5
-- [Type Setting - page setting](lectures/w4/type-setting-conditionals.md)
+- [Conditionals](lectures/w5-conditionals.md)
+- [Type Setting - page setting](lectures/w5-type-setting-conditionals.md)
 - [How to export to Image formats](lectures/w4/image-export.md)
 - [How to export to PDF](lectures/w4/vector-export.md)
   - Download [example files](files/pdf-saving-in-processing.zip) for saving PDF in Processing.
