@@ -52,7 +52,7 @@
 - [assignments](lectures/w4-assignments.md)
 
 ### Week 5
-- Announcement: Zach Lieberman's visit
+- Announcement: [Zach Lieberman](https://www.instagram.com/zach.lieberman/)'s visit
   - talk on Monday April 16
   - workshops on Tuesday April 17
 - [Conditionals](lectures/w5-conditionals.md)
