@@ -1,24 +1,24 @@
-![type pattern cover](../../images/type-pattern-cover.png)
+![type pattern cover](../images/type-pattern-cover.png)
 
 # Typographic Patterns
 
 ## 1 dimensional pattern
 
 ```js
-function setup() {
-  createCanvas(600, 200);
+void setup() {
+  size(600, 200);
   textFont("SansSerif");
   textAlign(CENTER, BASELINE);
   background(200);
 }
 
-function draw() {
+void draw() {
 	textSize(120);
 }
 
-function keyPressed() {
+void keyPressed() {
   background(200);
-  for (var i = 0; i < 40; i++) {
+  for (int i = 0; i < 40; i++) {
     fill(random(150, 255), 50, 200);
     text(key, -30 + i * 30, height/4*3 );
   }
@@ -29,19 +29,19 @@ function keyPressed() {
 
 ## 2 dimensional pattern
 ```js
-var t = "";
+String t = "";
 
-function setup() {
+void setup() {
 	createCanvas(600, 600);
 	textFont("Serif");
 	textSize(96);
 }
 
-function draw() {
+void draw() {
 	background(255, 255, 0);
 
-	for (var i = 0; i <= width; i += 40) {
-		for (var j = 0; j <= height; j += 40) {
+	for (int i = 0; i <= width; i += 40) {
+		for (int j = 0; j <= height; j += 40) {
 			if (i % 80 == 0) {
 				fill(0, 200, 200);
 			}	else {
@@ -52,7 +52,7 @@ function draw() {
 	}
 }
 
-function keyTyped() {
+void keyTyped() {
 	t = key;
 }
 ```
@@ -63,27 +63,27 @@ function keyTyped() {
 Notice that, for the transformations to happen on each letter, we have to use transformation functions within `push()` and `pop()`.
 
 ```js
-var scaleFactor;
-var t = "g";
+float scaleFactor;
+String t = "g";
 
-function setup() {
-  createCanvas(800, 600);
+void setup() {
+  	size(800, 600);
 	textFont("Serif");
 	textAlign(CENTER, CENTER);
 }
 
-function draw() {
+void draw() {
   background(255);
 
-  var xspacing = 60;
-  var yspacing = 40;
+  int xspacing = 60;
+  int yspacing = 40;
   scaleFactor = map(mouseX, 0, width, 0.2, 4);
-  var xcount = 0;
-  var ycount = 0;
+  int xcount = 0;
+  int ycount = 0;
   
-  for (var y = 0; y <= height; y += yspacing) {
-    for (var x = 0; x <= width; x += xspacing) {
-      push();
+  for (int y = 0; y <= height; y += yspacing) {
+    for (int x = 0; x <= width; x += xspacing) {
+      pushMatrix();
       // every other row
       if (ycount % 2 == 0) {
         translate(x, y);
@@ -99,7 +99,7 @@ function draw() {
 			} 
 			textSize(40 * scaleFactor);
       text(t, 0, 0);
-      pop();
+      popMatrix();
 
       xcount++;
     }
@@ -107,7 +107,7 @@ function draw() {
   }
 }
 
-function keyTyped() {
+void keyTyped() {
 	t = key;
 }
 ```
@@ -115,11 +115,11 @@ function keyTyped() {
 ## Circular pattern
 
 ```js
-var s1 = "꽃";
-var s2 = "잎";
+String s1 = "꽃";
+String s2 = "잎";
 
-function setup() {
-  createCanvas(600, 600);
+void setup() {
+  size(600, 600);
   colorMode(HSB, 360, 100, 100, 100);
 
   textFont("SansSerif");
@@ -127,22 +127,22 @@ function setup() {
   textAlign(LEFT, BOTTOM);
 }
 
-function draw() {
+void draw() {
   background(0, 0, 100);
   fill(0);
   
-  var offset1 = map(mouseX, 0, width, -100, 100);
-  var offset2 = map(mouseY, 0, height, -100, 100);
+  float offset1 = map(mouseX, 0, width, -100, 100);
+  float offset2 = map(mouseY, 0, height, -100, 100);
 
-  for (var i = 0; i < 360; i += 30) {
-    push();
+  for (int i = 0; i < 360; i += 30) {
+    pushMatrix();
     translate(width/2, height/2);
     rotate( radians(i) );
     fill(300, 60, 100);
     text(s1, offset1, offset2);
     fill(140, 100, 100);
     text(s2, offset2, offset1);
-    pop();
+    popMatrix();
   }
 }
 ```
