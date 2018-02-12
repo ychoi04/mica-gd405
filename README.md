@@ -54,8 +54,9 @@
 ### Week 5
 - [Conditionals](lectures/w5-conditionals.md)
 - [How to export to Image formats](lectures/w5-image-export.md)
-- [How to export to PDF](lectures/w4/vector-export.md)
-  - Download [example files](files/pdf-saving-in-processing.zip) for saving PDF in Processing.
+- How to export to PDF
+  - [Tutorial on Processing.org](https://processing.org/reference/libraries/pdf/index.html)
+  - Download [example files](files/pdf-saving-in-processing.zip).
 
 <!--
 - [Type Setting - page setting](lectures/w5-type-setting-conditionals.md)
