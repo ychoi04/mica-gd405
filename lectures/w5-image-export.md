@@ -2,7 +2,7 @@
 Let's take a look at a few different methods to export images.
 
 ## Save
-`save(filename)` will save a single image file. you need to supply the file name you want to use as in `save("myImage.png")`. Look at [the reference]((https://processing.org/reference/save_.html)) for more info. If you call this function inside `draw()`, your sketch will save a new image *every frame* and overwrite the previous one. This is not a good way of using this function. Instead, use mouse or key interactions to save a file:
+`save(filename)` will save a single image file. you need to supply the file name you want to use as in `save("myImage.png")`. Look at [the reference]((https://processing.org/reference/save_.html)) for more info. If you call this function inside `draw()`, your sketch will save a new image *every frame* and overwrite the previous one. This is not a good way of using this function. Instead, use mouse or key interactions to save a file only when you need it:
 
 ```java
 void setup() {
