@@ -183,9 +183,6 @@ void keyPressed() {
 	} else if (key == 'b') {
 		drawB(x, y, slant);
 		x += 60;
-	} else if (key == 'c') {
-		drawC(x, y, slant);
-		x += 60;
 	} else if (key == ' ') {
 		x += 60;
 	}
@@ -230,9 +227,6 @@ void keyPressed() {
 		x += 60;
 	} else if (key == 'b') {
 		drawB(x, y, slant);
-		x += 60;
-	} else if (key == 'c') {
-		drawC(x, y, slant);
 		x += 60;
 	} else if (key == ' ') {
 		x += 60;
