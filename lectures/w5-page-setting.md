@@ -141,7 +141,7 @@ void setup() {
 }
 ```
 
-Let's move this code block into `keyTyped()` function so that letter drawing functions will get called when a user types.
+Let's move this code block into `keyPressed()` function so that letter drawing functions will get called when a user types.
 
 ```js
 float x = 0;
@@ -173,7 +173,7 @@ void keyPressed() {
 You can now type with your keyboard and each drawing functions will be called (well, only for A and B in our example.). Any issues you see? As you add more letters, `x` values get increased and you are off the canvas. We need a line break.
 
 ## Adding a linke break.
-A line break here is simply adding some amount of number to the `y` position. I added a few lines of code into `keyTyped()` function definition. What it does is when `x` becomes greater than `width - 60`, set the `x` back to zero (remember the typewriter carriage.), and add `100` to `y`.
+A line break here is simply adding some amount of number to the `y` position. I added a few lines of code into `keyPressed()` function definition. What it does is when `x` becomes greater than `width - 60`, set the `x` back to zero (remember the typewriter carriage.), and add `100` to `y`.
 
 ```js
 void keyPressed() {
