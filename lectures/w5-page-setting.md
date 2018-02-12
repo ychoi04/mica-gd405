@@ -238,8 +238,8 @@ void keyPressed() {
 		x += 60;
 	}
 
-	// test the right margin
-	if (x > (width + 60)) {
+	// test the right margin (xmargin + letter width)
+	if (x > width - (xmargin + 60)) {
 		x = xmargin;
 		y += 100;
 	}
