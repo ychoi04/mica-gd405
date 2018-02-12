@@ -49,8 +49,6 @@ In the example above, I have two parameters to control `x` and `y` position of w
 
 For the slant, I am moving my points/vertices left and right, meaning I only need to add some offset to x coordinate of each point, and I wanted to do this proportionally. That's why you see something like `sl * 5/8` in the code below. When I call the function, I can control how much it slants.
 
-For the roundness, I realized I can add additional beginning and ending points and draw them with `curveVertex`. I also wanted to control whether I want that roundness or not, so I added `round` parameter and only when its value is `true`, the curve vertices will be added.
-
 The results are as below:
 
 ```js
