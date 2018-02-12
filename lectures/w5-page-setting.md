@@ -54,11 +54,10 @@ For the roundness, I realized I can add additional beginning and ending points a
 The results are as below:
 
 ```js
-void drawA(float x, float y, float sl, boolean round) {
+void drawA(float x, float y, float sl) {
 	pushMatrix();
 	translate(x, y);
 	beginShape();
-  	if (round) curveVertex(10+sl*4/8,50);
 	vertex(10+sl*4/8,50);
 	vertex(20+sl*5/8,40);
 	vertex(50+sl*5/8,40);
@@ -68,17 +67,15 @@ void drawA(float x, float y, float sl, boolean round) {
 	vertex(10+sl*2/8,70);
 	vertex(20+sl*3/8,60);
 	vertex(50+sl*3/8,60);
-	if (round) curveVertex(50+sl*3/8,60);
 	endShape();
 	line(60-sl*1/8, 100, 50, 90);
 	popMatrix();
 }
 
-void drawB(float x, float y, float sl, boolean round) {
+void drawB(float x, float y, float sl) {
 	pushMatrix();
 	translate(x, y);
 	beginShape();
-	if (round) curveVertex(10+sl,10);
 	vertex(10+sl,10);
 	vertex(10+sl*5/8,40);
 	vertex(10+sl*1/8,80);
@@ -87,7 +84,6 @@ void drawB(float x, float y, float sl, boolean round) {
 	vertex(50+sl*4/8,50);
 	vertex(40+sl*5/8,40);
 	vertex(10+sl*5/8,40);
-	if (round) curveVertex(10+sl*5/8,40);
 	endShape();
 	popMatrix();
 }
@@ -98,9 +94,9 @@ Anytime you are adding something, make sure you *test* often.
 ```js
 void draw() {
 	background(240);
-	drawA(100, 100, 20, false);
-	drawB(180, 100, -20, true);
-	drawB(250, 100, -20, false);
+	drawA(100, 100, 20);
+	drawB(180, 100, -20);
+	drawB(250, 100, -20);
 }
 ```
 Great. It works. These functions you built now can take any values. If you wanted to have a single variable that controls the slant of all the letters, you can create a global variable like this:
@@ -115,9 +111,9 @@ void setup() {
 
 void draw() {
 	background(240);
-	drawA(100, 100, slant, true);
-	drawB(170, 100, slant, true);
-	drawB(240, 100, slant, false);
+	drawA(100, 100, slant);
+	drawB(170, 100, slant);
+	drawB(240, 100, slant);
 }
 ```
 
@@ -138,11 +134,11 @@ void setup() {
 	size(600, 600);
 	noFill();
 	
-	drawA(x, y, slant, true);
+	drawA(x, y, slant);
 	x += 70;
-	drawB(x, y, slant, true);
+	drawB(x, y, slant);
 	x += 70;
-	drawB(x, y, slant, false);
+	drawB(x, y, slant);
 	x += 70;
 }
 ```
@@ -165,10 +161,10 @@ void draw() {
 
 void keyPressed() {
 	if (key == 'a') {
-		drawA(x, y, slant, false);
+		drawA(x, y, slant);
 		x += 60;
 	} else if (key == 'b') {
-		drawB(x, y, slant, false);
+		drawB(x, y, slant);
 		x += 60;
 	} else if (key == ' ') {
 		x += 60;
@@ -184,13 +180,13 @@ A line break here is simply adding some amount of number to the `y` position. I 
 ```js
 void keyPressed() {
 	if (key == 'a') {
-		drawA(x, y, slant, false);
+		drawA(x, y, slant);
 		x += 60;
 	} else if (key == 'b') {
-		drawB(x, y, slant, false);
+		drawB(x, y, slant);
 		x += 60;
 	} else if (key == 'c') {
-		drawC(x, y, slant, false);
+		drawC(x, y, slant);
 		x += 60;
 	} else if (key == ' ') {
 		x += 60;
@@ -232,13 +228,13 @@ Then, anytime we need to reset the `x` position, instead of putting it back to z
 ```js
 void keyPressed() {
 	if (key == 'a') {
-		drawA(x, y, slant, false);
+		drawA(x, y, slant);
 		x += 60;
 	} else if (key == 'b') {
-		drawB(x, y, slant, false);
+		drawB(x, y, slant);
 		x += 60;
 	} else if (key == 'c') {
-		drawC(x, y, slant, false);
+		drawC(x, y, slant);
 		x += 60;
 	} else if (key == ' ') {
 		x += 60;
