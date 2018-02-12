@@ -1,9 +1,10 @@
 # Week 5 assignments
 
-## Part 1: develop your design
+## Part 1: develop your type design
 
-As we continue to think about the "constructed" letterforms and the system, this week, I would like you to find your own direction to develop your design further based on what you already have. This could include designing more letters, 
-After all, what we are creating is *a system*, so there can be many different applications.
+As we continue to think about the "constructed" letterforms and the system, this week, I would like you to find your own direction to develop your design further based on what you already have. This could include designing more letters, adding more interaction and parameters, etc.
+
+Just to give you a heads up, our Project 1 will be based upon your own type design, so please take enough time to 
 
 - 10 different static compositions showcasing the capability/flexibility of your computational type system. Show different parametric combinations - a range of expressions. Use phrases or sentences of your choice. Keep the background white.
 - Another image that contains all the letters you have designed so far. Keep the background white.
