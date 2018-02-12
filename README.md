@@ -52,6 +52,9 @@
 - [assignments](lectures/w4-assignments.md)
 
 ### Week 5
+- Announcement: Zach Lieberman's visit
+  - talk on Monday April 16
+  - workshops on Tuesday April 17
 - [Conditionals](lectures/w5-conditionals.md)
 - [How to export to Image formats](lectures/w5-image-export.md)
 - How to export to PDF
