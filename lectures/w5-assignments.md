@@ -1,8 +1,5 @@
 # Week 5 assignments
 
-## Video Lessons
-Watch from 7.1 to 7.6 from [The Coding Train](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX)
-
 ## Reading
 Post a short summary *and* your thoughts on the journal:
 http://www.stripesf.com/On-Speculation
