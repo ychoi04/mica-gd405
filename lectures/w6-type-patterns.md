@@ -32,7 +32,7 @@ void keyPressed() {
 String t = "";
 
 void setup() {
-	createCanvas(600, 600);
+	size(600, 600);
 	textFont("Serif");
 	textSize(96);
 }
