@@ -238,7 +238,7 @@ void keyPressed() {
 		x += 60;
 	}
 
-	if (x > width - 60) {
+	if (x > (width + 60)) {
 		x = xmargin;
 		y += 100;
 	}
