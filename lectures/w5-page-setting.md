@@ -141,7 +141,7 @@ void setup() {
 }
 ```
 
-Let's move this code block into `keyPressed()` function so that letter drawing functions will get called when a user types.
+Notice that we are not using `draw()` in this example because to remember all the letters typed in and redraw every frame, it will require a different technique. For now, just think about the typewriter - once you type a letter, it will remain there. Let's move this code block into `keyPressed()` function so that letter drawing functions will get called when a user types.
 
 ```js
 float x = 0;
