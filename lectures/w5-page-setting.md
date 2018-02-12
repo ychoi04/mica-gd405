@@ -160,7 +160,7 @@ void draw() {
 void keyPressed() {
 	if (key == 'a') {
 		drawA(x, y, slant);
-		x += 60;
+		x += 60; // 60 is letter width in this example
 	} else if (key == 'b') {
 		drawB(x, y, slant);
 		x += 60;
@@ -179,7 +179,7 @@ A line break here is simply adding some amount of number to the `y` position. I 
 void keyPressed() {
 	if (key == 'a') {
 		drawA(x, y, slant);
-		x += 60;
+		x += 60; // 60 is letter width in this example
 	} else if (key == 'b') {
 		drawB(x, y, slant);
 		x += 60;
@@ -192,7 +192,7 @@ void keyPressed() {
 
 	if (x > width - 60) {
 		x = 0;
-		y += 100;
+		y += 100; // 100 is line height in this example
 	}
 }
 ```
