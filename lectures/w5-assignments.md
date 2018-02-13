@@ -11,12 +11,11 @@ Just to give you a heads up, our Final Project (starting week 10) will explore t
 We will see how our type design holds up in different contexts by making a poster. We also have the magnetic boards scheduled for displaying class work from Feb. 26.
 
 - Create a poster that showcases what your type design can do.
-- As the poster is a static medium, animation/interactions will not work on paper. Instead, think about other effective ways of showing your types' versatility and flexibility. You can think of this poster image as a promotional material for your type.
-
-- 10 different static compositions showcasing the capability/flexibility of your computational type system. Show different parametric combinations - a range of expressions. Use phrases or sentences of your choice. Keep the background white.
-- Another image that contains all the letters you have designed so far. Keep the background white.
-- Try to export high-resolution PDF file or images.
-- Upload all the images on Google Drive.
+- As the poster is a static medium, animation/interactions will not work on paper. Instead, think about other effective ways of showing your types' versatility and flexibility. For example, use repetitions and small multiples. What is interesting about designing programmatically? You can think of this poster image as a promotional material for your type.
+- If you export PDF out of Processing, then you can open the file in Illustrator and make fine adjustments.
+- Use 11 x 17 inch format. Vertical orientation only.
+- Upload the finalized poster image file (PDF or PNG) on Google Drive.
+- Print and bring the final poster on 11 x 17 inch paper. Again, in vertical orientation.
 
 ### Inspirations
 - [Muir McNeil](http://www.muirmcneil.com) and their talk on [TYPO](http://www.typotalks.com/videos/muir-mcneil-2/)
