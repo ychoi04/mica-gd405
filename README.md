@@ -63,9 +63,11 @@
   - Download [example files](files/pdf-saving-in-processing.zip).
 - [assignments](lectures/w5-assignments.md)
 
-<!--
+
 ### Week 6
 - Loops
+
+<!--
 - Pattern making basics: [examples](http://codepen.io/collection/AyaKxK/)
 - [Typographic patterns](lectures/w6/type-patterns.md)
 - [assignments](lectures/w6/w6-assignments.md)
