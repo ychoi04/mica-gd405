@@ -61,11 +61,9 @@
 - How to export to PDF
   - [Tutorial on Processing.org](https://processing.org/reference/libraries/pdf/index.html)
   - Download [example files](files/pdf-saving-in-processing.zip).
+- [assignments](lectures/w5-assignments.md)
 
 <!--
-- [Type Setting - page setting](lectures/w5-type-setting-conditionals.md)
-- [assignments](lectures/w5/w5-assignments.md)
-
 ### Week 6
 - Loops
 - Pattern making basics: [examples](http://codepen.io/collection/AyaKxK/)
