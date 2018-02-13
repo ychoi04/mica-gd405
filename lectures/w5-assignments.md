@@ -22,7 +22,7 @@ We will see how our type design holds up in different contexts by making a poste
 - [Muir McNeil](http://www.muirmcneil.com) and their talk on [TYPO](http://www.typotalks.com/videos/muir-mcneil-2/)
 - [Emigre](http://www.emigre.com/EmigreCatalog.php?cid=28)
 - [Wind](https://www.typotheque.com/blog/wind_a_layered_typeface_for_optical_illusions) by Hansje van Halem
-- Go to type foundries website. They usually have many helpful postings on type.
+- Go to type foundries' website. They usually have many helpful postings on type.
 
 
 
