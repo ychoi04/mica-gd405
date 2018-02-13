@@ -20,7 +20,7 @@ We will see how our type design holds up in a different context by making a post
 
 ### Inspirations
 - [Muir McNeil](http://www.muirmcneil.com) and their talk on [TYPO](http://www.typotalks.com/videos/muir-mcneil-2/)
-- [Emigre](http://www.emigre.com/EmigreCatalog.php?cid=28)
+- [Emigre Type Specimens](https://www.emigre.com/TypeSpecimens)
 - [Wind](https://www.typotheque.com/blog/wind_a_layered_typeface_for_optical_illusions) by Hansje van Halem
 - Go to type foundries' website. They usually have many helpful postings on type.
 
