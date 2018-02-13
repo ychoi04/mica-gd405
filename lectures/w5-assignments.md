@@ -15,7 +15,7 @@ We will see how our type design holds up in a different context by making a post
 - Create a poster that showcases what your type design can do.
 - As the poster is a static medium, animation/interactions will not work on paper. Instead, think about other effective ways of showing your types' personalities. For example, use repetitions and small multiples. What is interesting about designing programmatically? You can think of this poster image as a promotional material for your type.
 - If you export PDF out of Processing, then you can open the file in Illustrator and make fine adjustments.
-- You may combine the elements from other softwares.
+- You may combine the elements from other sketches/softwares.
 - Use 11 x 17 inch format. Vertical orientation only.
 - Upload the finalized poster image file (PDF or PNG) on Google Drive.
 - Print and bring the final poster on 11 x 17 inch paper. Again, in vertical orientation.
