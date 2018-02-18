@@ -10,7 +10,7 @@ Watch the videos below. Take notes, bring back questions:
 
 ## Type in Pattern, Pattern in Type
 
-- Create an interactive type pattern composition.
+- Create an interactive type pattern composition. (linear, radial, etc.)
 - You may use other graphic elements. Type itself can become a pattern, or type can be used in a pattern.
 - Start with something very simple. Experiment, explore and iterate to get more interesting results.
 - Focus on building *a system* that can create many variations of patterns, rather than creating only one version. Use variables/parameters to control form, spacing, color, number of repetitions, rhythms, etc.
