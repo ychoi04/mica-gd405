@@ -2,4 +2,4 @@
 
 Recreate the compositions below using for loops:
 
-![image](../images/w5-challenge.png)
+![image](../images/w6-challenge.png)
