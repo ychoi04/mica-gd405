@@ -66,13 +66,15 @@ void keyTyped() {
 Notice that, for the transformations to happen on each letter, we have to use transformation functions within `push()` and `pop()`.
 
 ```js
+PFont font;
 float scaleFactor;
 String t = "g";
 
 void setup() {
-  	size(800, 600);
-	textFont("Serif");
-	textAlign(CENTER, CENTER);
+  size(800, 600);
+  font = createFont("Serif", 96);
+  textFont(font);
+  textAlign(CENTER, CENTER);
 }
 
 void draw() {
@@ -83,7 +85,7 @@ void draw() {
   scaleFactor = map(mouseX, 0, width, 0.2, 4);
   int xcount = 0;
   int ycount = 0;
-  
+
   for (int y = 0; y <= height; y += yspacing) {
     for (int x = 0; x <= width; x += xspacing) {
       pushMatrix();
@@ -96,11 +98,11 @@ void draw() {
         rotate(-frameCount/200.0);
       }
       if (xcount % 2 == 0) {
-				fill(100, 200, 255);
-			} else {
-				fill(250, 100, 250);
-			} 
-			textSize(40 * scaleFactor);
+        fill(100, 200, 255);
+      } else {
+        fill(250, 100, 250);
+      } 
+      textSize(40 * scaleFactor);
       text(t, 0, 0);
       popMatrix();
 
@@ -111,8 +113,9 @@ void draw() {
 }
 
 void keyTyped() {
-	t = key;
+  t = str(key);
 }
+
 ```
 
 ## Circular pattern
