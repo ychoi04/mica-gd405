@@ -155,6 +155,12 @@ void draw() {
 
 ```
 
+## Things to look at
+- [Whirligig](https://www.emigre.com/Fonts/Whirligig) by Zuzana Licko
+- [Hypnopaedia](https://www.emigre.com/Fonts/Hypnopaedia) by Zuzana Licko
+- [Volvox](http://www.typecuts.com/fonts.php?f=8) by Andrea Tinnes
+- 
+
 ------
 
 *Exercise: Practice creating 1d & 2d patterns with for loops. Map some of the properties to mouse positions, such as spacing, text size, color, rotation, etc.*
