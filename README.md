@@ -70,11 +70,11 @@
 - [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
 - [Typographic patterns](lectures/w6/type-patterns.md)
 - [Radial patterns](lectures/w6-radial-patterns.md)
-
-<!--
 - [assignments](lectures/w6/w6-assignments.md)
 
+
 ### Week 7
+<!--
 - [Problems with your code?](lectures/w7/problem-solving-tips.md)
 - [Motion](lectures/w7/motion.md)
 - [Trigonometry](lectures/w7/trigonometry.md)
