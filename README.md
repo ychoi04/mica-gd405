@@ -66,6 +66,7 @@
 
 ### Week 6
 - Loops
+  - [challenges](lectures/w6-loop-challenge.md)
 
 <!--
 - Pattern making basics: [examples](http://codepen.io/collection/AyaKxK/)
