@@ -4,7 +4,7 @@
 
 Watch the videos below. Take notes, bring back questions:
 
-  - [Functions](https://www.youtube.com/watch?v=XCu7JSkgl04&list=PLRqwX-V7Uu6ajGB2OI3hl5DZsD1Fw1WzR) (4 videos) from the Coding Train
+ - [Functions](https://www.youtube.com/watch?v=XCu7JSkgl04&list=PLRqwX-V7Uu6ajGB2OI3hl5DZsD1Fw1WzR) (4 videos) from the Coding Train
  - Watch [the talk](http://www.typotalks.com/videos/muir-mcneil-2/) from MuirMcNeil.
 
 
