@@ -4,16 +4,18 @@
 
 ## 1 dimensional pattern
 
-```js
+```java
+PFont font;
+
 void setup() {
   size(600, 200);
-  textFont("SansSerif");
+  font = createFont("SansSerif", 120);
+  textFont(font);
   textAlign(CENTER, BASELINE);
   background(200);
 }
 
 void draw() {
-	textSize(120);
 }
 
 void keyPressed() {
@@ -29,31 +31,32 @@ void keyPressed() {
 
 ## 2 dimensional pattern
 ```js
-String t = "";
+PFont font;
+char t;
 
 void setup() {
-	size(600, 600);
-	textFont("Serif");
-	textSize(96);
+  size(600, 600);
+  font = createFont("Serif", 96);
+  textFont(font);
 }
 
 void draw() {
-	background(255, 255, 0);
+  background(255, 255, 0);
 
-	for (int i = 0; i <= width; i += 40) {
-		for (int j = 0; j <= height; j += 40) {
-			if (i % 80 == 0) {
-				fill(0, 200, 200);
-			}	else {
-				fill(250, 0, 250);
-			}
-			text(t, i, j);
-		}
-	}
+  for (int i = 0; i <= width; i += 40) {
+    for (int j = 0; j <= height; j += 40) {
+      if (i % 80 == 0) {
+        fill(0, 200, 200);
+      } else {
+        fill(250, 0, 250);
+      }
+      text(t, i, j);
+    }
+  }
 }
 
 void keyTyped() {
-	t = key;
+  t = key;
 }
 ```
 
