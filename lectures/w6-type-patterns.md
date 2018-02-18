@@ -121,6 +121,7 @@ void keyTyped() {
 ## Circular pattern
 
 ```js
+PFont font;
 String s1 = "꽃";
 String s2 = "잎";
 
@@ -128,15 +129,15 @@ void setup() {
   size(600, 600);
   colorMode(HSB, 360, 100, 100, 100);
 
-  textFont("SansSerif");
-  textSize(80);
+  font = createFont("SansSerif", 80);
+  textFont(font);
   textAlign(LEFT, BOTTOM);
 }
 
 void draw() {
   background(0, 0, 100);
   fill(0);
-  
+
   float offset1 = map(mouseX, 0, width, -100, 100);
   float offset2 = map(mouseY, 0, height, -100, 100);
 
@@ -151,6 +152,7 @@ void draw() {
     popMatrix();
   }
 }
+
 ```
 
 ------
