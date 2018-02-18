@@ -67,6 +67,7 @@
 ### Week 6
 - Loops
   - [challenges](lectures/w6-loop-challenge.md)
+- [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
 
 <!--
 - Pattern making basics: [examples](http://codepen.io/collection/AyaKxK/)
