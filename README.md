@@ -68,7 +68,7 @@
 - Loops
   - [challenges](lectures/w6-loop-challenge.md)
 - [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
-- [Typographic patterns](lectures/w6/type-patterns.md)
+- [Typographic patterns](lectures/w6-type-patterns.md)
 - [Radial patterns](lectures/w6-radial-patterns.md)
 - [assignments](lectures/w6/w6-assignments.md)
 
