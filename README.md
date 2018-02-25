@@ -74,8 +74,9 @@
 
 
 ### Week 7
+- [Problems with your code?](lectures/w7-problem-solving-tips.md)
+
 <!--
-- [Problems with your code?](lectures/w7/problem-solving-tips.md)
 - [Motion](lectures/w7/motion.md)
 - [Trigonometry](lectures/w7/trigonometry.md)
 - [Interpolation](lectures/w7/interpolation.md)
