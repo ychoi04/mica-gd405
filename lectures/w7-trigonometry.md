@@ -9,17 +9,17 @@ There are a lot of interesting things about trigonometry, but here, we will look
 The only thing you need to know now is that the value we get from the sine function changes smoothly between -1 and 1.
 
 ```js
-var diam;
-var angle;
+float diam;
+float angle;
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   
   diam = 20;
   angle = 0;
 }
 
-function draw() {
+void draw() {
   background(200);
   
   ellipse(width/2, height/2, diam, diam);
@@ -46,19 +46,19 @@ We get almost breathing-like animation. `sin()` is great to make your animation 
 ## Circular motion using trigonometry
 
 ```js
-var xpos;
-var ypos;
-var angle;
+float xpos;
+float ypos;
+float angle;
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   background(200);
   
   diam = 20;
   angle = 0;
 }
 
-function draw() {
+void draw() {
   noStroke();
   fill(0);
   ellipse(xpos, ypos, 2, 2);
