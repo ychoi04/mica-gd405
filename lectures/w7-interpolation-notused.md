@@ -4,7 +4,7 @@
 ## Graphing
 Imagine yourself back in a middle school math classroom. Your teacher asked to plot a graph *y = x* and *y = 2x*. This is what you will draw:
 
-![linear graph](../../images/graph-linear.png)
+![linear graph](../images/graph-linear.png)
 
 To apply this graph to motion, think of *x* axis as time, and *y* axis as value you get over time. That's basically what we did in the last posting.
 ```js
