@@ -1,7 +1,7 @@
 # Interpolation
 
 ## Constrain
-```js
+```java
 int ts; // text size
 
 void setup() {
@@ -29,7 +29,7 @@ void draw() {
 
 ## Map
 If I want to create a linear gradient, I would probably start like this:
-```js
+```java
 void setup() {
   size(400, 400);
 }
@@ -45,7 +45,7 @@ void draw() {
 ```
 The problem is that my canvas width is much larger than `255` or the maximum color value, so the half of my screen is just white. How can we make sure that the gradient spans across the entire width? It's time to use `map()`. `map()` *remaps* a range to a new range. It's like a rubber band that can stretch or shrink.
 
-```js
+```java
 void setup() {
   size(400, 400);
 }
@@ -62,7 +62,7 @@ void draw() {
 ```
 
 While we're at it, let's make it into a function so that we can reuse.
-```js
+```java
 void setup() {
   size(400, 400);
 }
@@ -92,18 +92,18 @@ If you are interested in more gradients, take a look at these examples - [linear
 `lerp()` function is like a ruler. You will give it start value, end value, and you can get any number at any increment.
 
 What is the number at 50% location between 0 and 100? That's easy - it's 50.
-```js
+```java
 float num = lerp(0, 100, 0.5);
 println(num);
 ```
 But, what about the number at 22% location between 123 and 522?
-```js
+```java
 float num = lerp(123, 522, 0.22);
 println(num);
 ```
 
 If you want an ellipse to be always at 50% location between the mouse position and center of the canvas:
-```js
+```java
 float xpos;
 float ypos;
 
@@ -126,7 +126,7 @@ void draw() {
 
 To push it further, you want the ellipse to move towards your mouse by 10% each frame, we get an interesting deceleration movement:
 
-```js
+```java
 float xpos;
 float ypos;
 
@@ -147,7 +147,7 @@ void draw() {
 ```
 
 Or, even better:
-```js
+```java
 float xpos;
 float ypos;
 float targetX;
