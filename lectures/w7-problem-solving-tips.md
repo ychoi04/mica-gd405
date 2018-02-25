@@ -1,15 +1,10 @@
 # Having problems with your code?
 
-1. **Check the spelling.**
+1. **Check the spelling.** - l e t t e r b y l e t t e r.
 
-  l e t t e r b y l e t t e r.
-
-1. **Save often and test often.**
-
-  Whenever you add a few lines of code, save and preview to make sure everything looks okay.
+1. **Save often and test often.** - Whenever you add a few lines of code, save and preview to make sure everything looks okay.
 
 1. **Identify the problem.**
-
   Take your time and look at your code again. Try to find what is causing the problem.
   
 1. **Isolate the problem.**
