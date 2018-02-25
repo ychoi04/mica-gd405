@@ -2,24 +2,24 @@
 
 ## Constrain
 ```js
-var ts; // text size
+int ts; // text size
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   textAlign(CENTER, CENTER);
   ts = 128;
 }
 
-function draw() {
+void draw() {
   background(200);
 
   textSize(ts);
   text("a", width/2, height/2);
   
-  if (keyIsPressed) {
-    if (keyCode == LEFT_ARROW) {
+  if (keyPressed) {
+    if (keyCode == LEFT) {
       ts -= 4;
-    } else if (keyCode == RIGHT_ARROW) {
+    } else if (keyCode == RIGHT) {
       ts += 4;
     }
     ts = constrain(ts, 96, 512);
@@ -30,30 +30,31 @@ function draw() {
 ## Map
 If I want to create a linear gradient, I would probably start like this:
 ```js
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
 }
 
-function draw() {
+void draw() {
   background(200);
 
-  for (var i = 0; i < width; i++) {
+  for (int i = 0; i < width; i++) {
     stroke(i);
     line(i, 0, i, height);
   }
 }
 ```
 The problem is that my canvas width is much larger than `255` or the maximum color value, so the half of my screen is just white. How can we make sure that the gradient spans across the entire width? It's time to use `map()`. `map()` *remaps* a range to a new range. It's like a rubber band that can stretch or shrink.
+
 ```js
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
 }
 
-function draw() {
+void draw() {
   background(200);
 
-  for (var i = 0; i < width; i++) {
-    var x = map(i, 0, width, 0, 255);
+  for (int i = 0; i < width; i++) {
+    float x = map(i, 0, width, 0, 255);
     stroke(x);
     line(i, 0, i, height);
   }
@@ -62,11 +63,11 @@ function draw() {
 
 While we're at it, let's make it into a function so that we can reuse.
 ```js
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
 }
 
-function draw() {
+void draw() {
   background(200);
 
   bnwGradient(50, 50, 200, 300);
@@ -74,15 +75,15 @@ function draw() {
   bnwGradient(250, 300, 100, 80);
 }
 
-function bnwGradient(x, y, w, h) {
-  push();
+void bnwGradient(x, y, w, h) {
+  pushMatrix();
   translate(x, y);
-  for (var i = 0; i < w; i++) {
-    var c = map(i, 0, w, 0, 255);
+  for (int i = 0; i < w; i++) {
+    float c = map(i, 0, w, 0, 255);
     stroke(c);
     line(i, 0, i, h);
   }
-  pop();
+  popMatrix();
 }
 ```
 If you are interested in more gradients, take a look at these examples - [linear gradient](https://p5js.org/examples/color-linear-gradient.html) and [radial gradient](https://p5js.org/examples/color-radial-gradient.html).
@@ -92,32 +93,32 @@ If you are interested in more gradients, take a look at these examples - [linear
 
 What is the number at 50% location between 0 and 100? That's easy - it's 50.
 ```js
-var num = lerp(0, 100, 0.5);
-console.log(num);
+float num = lerp(0, 100, 0.5);
+println(num);
 ```
 But, what about the number at 22% location between 123 and 522?
 ```js
-var num = lerp(123, 522, 0.22);
-console.log(num);
+float num = lerp(123, 522, 0.22);
+println(num);
 ```
 
 If you want an ellipse to be always at 50% location between the mouse position and center of the canvas:
 ```js
-var xpos;
-var ypos;
+float xpos;
+float ypos;
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   
   xpos = width/2;
   ypos = height/2;
 }
 
-function draw() {
+void draw() {
   background(200);
 
-  var newX = lerp(xpos, mouseX, 0.5);
-  var newY = lerp(ypos, mouseY, 0.5);
+  float newX = lerp(xpos, mouseX, 0.5);
+  float newY = lerp(ypos, mouseY, 0.5);
   
   ellipse(newX, newY, 40, 40);
 }
@@ -126,16 +127,16 @@ function draw() {
 To push it further, you want the ellipse to move towards your mouse by 10% each frame, we get an interesting deceleration movement:
 
 ```js
-var xpos;
-var ypos;
+float xpos;
+float ypos;
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   xpos = width/2;
   ypos = height/2;
 }
 
-function draw() {
+void draw() {
   background(200);
 
   xpos = lerp(xpos, mouseX, 0.1);
@@ -147,18 +148,18 @@ function draw() {
 
 Or, even better:
 ```js
-var xpos;
-var ypos;
-var targetX;
-var targetY;
+float xpos;
+float ypos;
+float targetX;
+float targetY;
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   xpos = targetX = width/2;
   ypos = targetY = height/2;
 }
 
-function draw() {
+void draw() {
   background(200);
 
   xpos = lerp(xpos, targetX, 0.1);
@@ -167,7 +168,7 @@ function draw() {
   ellipse(xpos, ypos, 20, 20);
 }
 
-function mousePressed() {
+void mousePressed() {
   targetX = mouseX;
   targetY = mouseY;
 }
