@@ -3,16 +3,16 @@
 ## 1 dimensional motion
 
 ```js
-var xpos; //global to make it accessible from everywhere.
+float xpos; //global to make it accessible from everywhere.
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   textSize(96);
   
   xpos = 0;
 }
 
-function draw() {
+void draw() {
   background(200);
   
   text("hello", xpos, height/2);
@@ -20,25 +20,25 @@ function draw() {
   // xpos += 5; // increase value for fast movement
 }
 
-function mousePressed() {
+void mousePressed() {
   xpos = mouseX;
 }
 ```
 
 ### Edge handling: scroll
 ```js
-var xpos; //global to make it accessible from everywhere.
-var str;
+float xpos; //global to make it accessible from everywhere.
+String str;
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   textSize(96);
   
   xpos = 0;
   str = "hello";
 }
 
-function draw() {
+void draw() {
   background(200);
   
   text(str, xpos, height/2);
@@ -49,19 +49,19 @@ function draw() {
   }
 }
 
-function mousePressed() {
+void mousePressed() {
   xpos = mouseX;
 }
 ```
 
 ### Edge handling: bounce
 ```js
-var xpos;
-var xspeed;
-var str;
+float xpos;
+float xspeed;
+String str;
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   textSize(96);
   
   xpos = 0;
@@ -69,7 +69,7 @@ function setup() {
   str = "hello";
 }
 
-function draw() {
+void draw() {
   background(200);
   
   text(str, xpos, height/2);
@@ -85,21 +85,21 @@ function draw() {
   }
 }
 
-function mousePressed() {
+void mousePressed() {
   xpos = mouseX;
 }
 ```
 
 ## 2 dimensional motion
 ```js
-var str;
-var xpos;
-var ypos;
-var xspeed;
-var yspeed;
+String str;
+float xpos;
+float ypos;
+float xspeed;
+float yspeed;
 
-function setup() {
-  createCanvas(400, 400);
+void setup() {
+  size(400, 400);
   textSize(48);
   
   str = "hello";
@@ -109,7 +109,7 @@ function setup() {
   yspeed = random(2, 5);
 }
 
-function draw() {
+void draw() {
   background(200);
   
   // draw
