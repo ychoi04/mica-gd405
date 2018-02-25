@@ -2,7 +2,7 @@
 
 ## Watch
 
-Watch the [video presentation by LUST](http://www.typotalks.com/videos/digital-anthropology/), and write a response on your journal.
+Watch the [video presentation by LUST](http://www.typotalks.com/videos/digital-anthropology/).
 
 -----
 
