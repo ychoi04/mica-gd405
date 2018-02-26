@@ -32,6 +32,8 @@ This is a 2-week assignment (3-week if we include the Spring Break). This week, 
 
 ### Inspirations
 - [Studio Feixen](http://www.itsnicethat.com/articles/studio-feixen-graphic-design-030317)
+- [DIA Studio](https://www.instagram.com/dia_studio/)
+
 
 
 ### Students work
