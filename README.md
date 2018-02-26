@@ -77,6 +77,7 @@
 - [Problems with your code?](lectures/w7-problem-solving-tips.md)
 - [review](lectures/w7-review.md)
 - Object / Class
+  - [Tutorial from processing.org](https://processing.org/tutorials/objects/)
 - [assignments](lectures/w7-assignments.md)
 
 <!--
