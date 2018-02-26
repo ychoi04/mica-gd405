@@ -75,12 +75,14 @@
 
 ### Week 7
 - [Problems with your code?](lectures/w7-problem-solving-tips.md)
+- [review](lectures/w7-review.md)
+- [assignments](lectures/w7-assignments.md)
 
 <!--
 - [Motion](lectures/w7/motion.md)
 - [Trigonometry](lectures/w7/trigonometry.md)
 - [Interpolation](lectures/w7/interpolation.md)
-- [assignments](lectures/w7/w7-assignments.md)
+
 
 ### Week 8
 - [Objects](lectures/w8/object.md)
