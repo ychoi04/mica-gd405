@@ -17,3 +17,10 @@ Answer the questions below:
   // draw ellipse in the middle of screen
   ellipse(300, 200, 100, 100);
   ```
+- What is the value 20 for in the `fill()`?
+```
+size(400, 400);
+fill(255, 0, 0, 20);
+ellipse(50, 50, 50, 50);
+```
+- 
