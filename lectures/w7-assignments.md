@@ -30,11 +30,13 @@ This is a 2-week assignment (3-week if we include the Spring Break). This week, 
 - first interactive prototype (a proof of concept)
 - challenge yourself but also be realistic.
 
+### Inspirations
+- [Studio Feixen](http://www.itsnicethat.com/articles/studio-feixen-graphic-design-030317)
+
 
 ### Students work
 - [Lorna](http://mica-gd405.paperdove.com/2017/poster/LornaPittaway/)
 - [Chris](http://mica-gd405.paperdove.com/2017/poster/ChrisFodge/empty-example/)
   
-### Inspirations
-- [Studio Feixen](http://www.itsnicethat.com/articles/studio-feixen-graphic-design-030317)
+
 
