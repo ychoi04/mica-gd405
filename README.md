@@ -80,13 +80,16 @@
   - [Tutorial from processing.org](https://processing.org/tutorials/objects/)
 - [assignments](lectures/w7-assignments.md)
 
+### Week 8
+- High resolution display (ie. apple retina): `pixelDensity(2)` or `pixelDensity(displayDensity())`
+
 <!--
 - [Motion](lectures/w7/motion.md)
 - [Trigonometry](lectures/w7/trigonometry.md)
 - [Interpolation](lectures/w7/interpolation.md)
 
 
-### Week 8
+
 - [Objects](lectures/w8/object.md)
 - [Glyph object](lectures/w8/object-glyph.md)
 - [assignments](lectures/w8/w8-assignments.md)
