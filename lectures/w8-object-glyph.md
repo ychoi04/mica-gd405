@@ -2,7 +2,7 @@
 
 If we apply the object-oriented programming concept to our computational type design, we can consider each letter or glyph as an object with its own set of properties and methods.
 
-A constructor function is a blueprint, so you want to decide what data *each* glyph should contain. To set the type in a basic way, we will at least need to know which character we want to set, the position of the character, etc.
+A class is a blueprint, so you want to decide what data *each* glyph should contain. We can create different glyphs from the same class by changing what data is stored in each. To set the type in a basic way, we will at least need to know which character we want to set, the position of the character, etc.
 
 ```js
 function Glyph(gly) {
