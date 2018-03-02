@@ -4,6 +4,8 @@ If we apply the object-oriented programming concept to our computational type de
 
 A class is a blueprint, so you want to decide what data *each* glyph should contain. We can create different glyphs from the same class by changing what data is stored in each. To set the type in a basic way, we will at least need to know which character we want to set, the position of the character, etc.
 
+Once we set each glyph not as a simple character, but as an object with more data stored within, we will be able to control them in many different ways.
+
 ```js
 function Glyph(gly) {
 	this.gly = gly;
