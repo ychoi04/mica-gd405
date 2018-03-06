@@ -95,13 +95,10 @@
 
 ### Week 10
 
-
 <!--
 - [Motion](lectures/w7/motion.md)
 - [Trigonometry](lectures/w7/trigonometry.md)
 - [Interpolation](lectures/w7/interpolation.md)
-- [Glyph object](lectures/w8/object-glyph.md)
-
 
 ### Week 10
 - Object review: [here](http://codepen.io/cdaein/pen/wJmMpp) and [here](http://codepen.io/cdaein/pen/QpmNOe)
