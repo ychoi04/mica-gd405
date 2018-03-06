@@ -6,28 +6,33 @@ A class is a blueprint, so you want to decide what data *each* glyph should cont
 
 Once we set each glyph not as a simple character, but as an object with more data stored within, we will be able to control them in many different ways.
 
-```js
-function Glyph(gly) {
-	this.gly = gly;
-	this.size = 48; // text size;
-	this.x;
-	this.y;
-	this.w;
+```java
+class Glyph {
+	char gly;
+	float ts; // text size;
+	float x;
+	float y;
+	float w; // text width
 	
-	this.getWidth = function() {
-		this.w = textWidth(this.gly);
-		return this.w;
+	Glyph(char _gly) {
+		gly = _gly;
+		ts = 48;
+		w = textWidth(gly);
+	}
+	
+	void getWidth() {
+		return w;
 	};
 	
-	this.setPosition = function(x, y) {
-		this.x = x;
-		this.y = y;
+	void setPosition(float _x, float _y) {
+		x = _x;
+		y = _y;
 	};
 	
-	this.draw = function() {
-		textSize(this.size);
+	void draw() {
+		textSize(ts);
 		fill(0);
-		text(this.gly, this.x, this.y);
+		text(gly, x, y);
 	};
 }
 ```
