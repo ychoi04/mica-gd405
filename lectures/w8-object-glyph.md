@@ -20,7 +20,7 @@ class Glyph {
 		w = textWidth(gly);
 	}
 	
-	void getWidth() {
+	float getWidth() {
 		return w;
 	};
 	
@@ -37,19 +37,19 @@ class Glyph {
 }
 ```
 
-In the example above, we have five properties and three methods. `gly` value is passed on to the object property `this.gly` at the time of the object creation. `this.size` is initialized internally. `this.x` and `this.y` values are passed on from `this.setPosition` parameters. `this.w` is calculated dynamically by `this.getWidth` method.
+In the example above, we have five fields and three methods. The constructor parameter `_gly` is passed on to the object field `gly` at the time of the object creation. `w` is also initialized with the constructor. `ts` is initialized internally. `x` and `y` values are passed on from `setPosition` function parameters.
 
 Of course, you can add more for your own design requirements. It is your design choice what properties will be determined at the time of creation and what others will be set while running the program.
 
 Now, we can create glyph objects in our main program:
 
 ```js
-var a;
-var b;
-var c;
+Glyph a;
+Glyph b;
+Glyph c;
 
-function setup() {
-	createCanvas(400, 400);
+void setup() {
+	size(400, 400);
 	textSize(48);
 	
 	a = new Glyph('a');
@@ -57,7 +57,7 @@ function setup() {
 	c = new Glyph('c');
 }
 
-function draw() {
+void draw() {
 	background(200);
 	
 	a.setPosition(50, 50);
