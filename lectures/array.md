@@ -16,8 +16,7 @@ int mar04 = 5119;
 You see how tedious it can be to create and manage multiple variables like this. Instead, we can use an *array* to group the variables together:
 
 ```js
-int[] marchSteps;
-marchSteps = new int[31];
+int[] marchSteps = new int[31];
 marchSteps[0] = 3021; // assign values; starts from zero!
 marchSteps[1] = 3512;
 marchSteps[2] = 1334;
@@ -37,11 +36,17 @@ When we need to access the March 1st step count, we can use the array index as `
 println(marchSteps[0]); // remember we count from zero!
 ```
 
-Later, if you want to add more data to the array, we will *push* it into the array. The data that gets pushed is added at the end of your array:
+Or, we can print the entire array:
+
+```java
+printArray(marchSteps);
+```
+
+Later, if you want to add more data to the array, we will *append* the new element. The data is added at the end of the *new* array. Note that after we `append`, we need to assign the updated/new array back into the original:
 
 ```js
 int[] marchSteps = { 3021, 3512, 1334, 5119 };
-marchSteps.push( 4211 ); // March 5th step count.
+marchSteps = append( marchSteps, 4211 ); // assign appended array back into original
 
 println(marchSteps[4]);
 ```
@@ -52,13 +57,13 @@ If you want to check the current length of the array:
 println( marchSteps.length );
 ```
 
-If you want to delete an element from the array, use `splice()`:
+If you want to delete the last element from the array, use `shorten()`:
 
 ```js
 int[] myArray = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 }; 
 println(myArray); // before
-myArray.splice(0, 3);
-console.log(myArray); // after
+myArray = shorten(myArray);
+println(myArray); // after
 ```
 
 Because an array holds many elements, you normally use arrays and for loops together. Let's put together everything we've learned so far to visualize our walking data:
