@@ -1,6 +1,6 @@
 # Arrays 
 
-*An array is a list of data. Each piece of data in an array is identified by an index number representing its position in the array. Arrays are zero based, which means that the first element in the array is [0], the second element is [1], and so on. - from [p5js.org](https://p5js.org/examples/arrays-array.html)*
+*An array is a list of data. Each piece of data in an array is identified by an index number representing its position in the array. Arrays are zero based, which means that the first element in the array is [0], the second element is [1], and so on. - from p5js.org*
 
 ## Visualize walking data 
 
