@@ -29,6 +29,7 @@ class Drop {
   float len;
   float yspeed;
   
+  // _x and _y are used to pass the values to x and y so that they can be stored and used later.
   Drop(float _x, float _y) {
     x = _x;
     y = _y;
