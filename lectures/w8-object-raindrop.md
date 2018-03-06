@@ -89,7 +89,7 @@ class Drop {
     x = _x;
     y = _y;
     len = 40;
-    yspeed = 5;
+    yspeed = random(3, 8); // not every drop will have the same speed
   }
   
   void display() {
