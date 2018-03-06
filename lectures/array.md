@@ -85,3 +85,44 @@ void draw() {
 	}
 }
 ```
+
+Here is another version with a bit more visual styling:
+
+```java
+int[] marchSteps = { 4292, 1089, 5754, 1500, 2262, 3196, 2225, 3578, 901, 4982, 7423, 6002, 4246, 4384, 1829, 4122, 4899, 1448, 3838 };
+
+void setup() {
+  size(500, 500);
+}
+
+void draw() {
+  background(255);
+
+  translate(50, 50);
+
+  for (int i = 0; i < marchSteps.length; i++) {
+    float sp = width / (marchSteps.length+1) - 4;
+    float h = map( marchSteps[i], 0, 10000, 0, -300 );
+
+    noStroke();
+    fill(255+h, 0, 0);
+    rect(i*sp, 350, 20, h );
+
+    // step label
+    pushMatrix();
+    translate(i*sp + 6, 350+h+4);
+    rotate(HALF_PI);
+    fill(255);
+    text( marchSteps[i], 0, 0 );
+    popMatrix();
+
+    // date label
+    pushMatrix();
+    translate(i*sp + 4, 362);
+    rotate(QUARTER_PI);
+    fill(0);
+    text("Mar." + str(i+1), 0, 0);
+    popMatrix();
+  }
+}
+```
