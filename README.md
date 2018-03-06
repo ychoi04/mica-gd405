@@ -83,6 +83,7 @@
 ### Week 8
 - High resolution display (ie. apple retina): `pixelDensity(2)` or `pixelDensity(displayDensity())`
 - Object review
+  - [Glyph object](lectures/w8-object-glyph.md)
   - [rain drop exercise](lectures/w8-object-raindrop.md)
 - [Array](lectures/w8-array.md)
   - [Array tutorial from Processing.org](https://processing.org/tutorials/arrays/)
