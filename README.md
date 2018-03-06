@@ -82,6 +82,8 @@
 
 ### Week 8
 - High resolution display (ie. apple retina): `pixelDensity(2)` or `pixelDensity(displayDensity())`
+- Object review
+  - [rain drop exercise](lectures/w8-object-raindrop.md)
 
 <!--
 - [Motion](lectures/w7/motion.md)
