@@ -93,7 +93,7 @@
 - [Motion](lectures/w7/motion.md)
 - [Trigonometry](lectures/w7/trigonometry.md)
 - [Interpolation](lectures/w7/interpolation.md)
-- [Objects](lectures/w8/object.md)
+
 - [Glyph object](lectures/w8/object-glyph.md)
 - [assignments](lectures/w8/w8-assignments.md)
 
