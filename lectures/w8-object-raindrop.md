@@ -62,7 +62,7 @@ Drop[] drops;
 void setup() {
  size(500, 500); 
  
- drops = new Drop[100];
+ drops = new Drop[500];
  
  for (int i = 0; i < drops.length; i++) {
    drops[i] = new Drop(random(width), random(height));
