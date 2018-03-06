@@ -86,15 +86,13 @@
   - [rain drop exercise](lectures/w8-object-raindrop.md)
 - [Array](lectures/w8-array.md)
   - [Array tutorial from Processing.org](https://processing.org/tutorials/arrays/)
+  - [Bouncing balls with array](lectures/w8-array-bouncing-ball.md)
   
 
 <!--
 - [Motion](lectures/w7/motion.md)
 - [Trigonometry](lectures/w7/trigonometry.md)
 - [Interpolation](lectures/w7/interpolation.md)
-
-
-
 - [Objects](lectures/w8/object.md)
 - [Glyph object](lectures/w8/object-glyph.md)
 - [assignments](lectures/w8/w8-assignments.md)
