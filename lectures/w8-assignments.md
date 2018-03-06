@@ -2,9 +2,9 @@
 
 ## Video lessons
 
-Watch the videos, take notes, try them out and bring back questions:
+Watch the videos, take notes, follow along and bring back questions:
 
-- [9.Array](https://www.youtube.com/watch?v=NptnmWvkbTw&list=PLRqwX-V7Uu6bO9RKxHObluh-aPgrrvb4a)
+- [9. Array](https://www.youtube.com/watch?v=NptnmWvkbTw&list=PLRqwX-V7Uu6bO9RKxHObluh-aPgrrvb4a)
 
 ## Main assignment
 
