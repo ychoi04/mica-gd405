@@ -2,7 +2,7 @@
 
 The final project is an open project as long as it is related to generative typography. Look back at everything you have done so far - from sketches, journal, assignments to any questions.
 
-You may make it as practical and functional, or as experimental and unconventional as you want, but make sure you are not just replicating an existing project (it is so easy to just copy and paste someone else's codes). 
+You may make it as practical and functional, or as experimental and unconventional as you want, but make sure you are not just replicating an existing project. It is so easy to just copy and paste someone else's codes without understanding what is really going on. When you use other people's codes, use them as building blocks for your own ideas.
 
 Define your own goals. What are you trying to achieve with your design? Your goal should be realistic. You want to challenge yourself in learning something new but the project must be finished by the end of the semester.
 
