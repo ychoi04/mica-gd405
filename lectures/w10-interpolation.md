@@ -1,4 +1,5 @@
 # Interpolation
+It's all about how we manipulate numbers in different ways to get what we need. Here are a few different ways to control the numbers.
 
 ## Constrain
 https://processing.org/reference/constrain_.html
