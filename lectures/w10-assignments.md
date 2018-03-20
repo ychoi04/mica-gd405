@@ -9,3 +9,6 @@ One of the best ways to learn is to teach or help other people. This week's assi
 - It does not have to be overly complex, but do not pick something that is too easy or basic. Challenge yourself a little, but do not choose something you don't understand. Also, don't just copy and paste what's already out there. If you find something interesting, first make it your own and add your own contents to it.
 - It should take no more than 10-15 minutes to follow your tutorial.
 - When we meet next time, we will try out your tutorials as small groups.
+
+## Final project
+Initial research - present **two different ideas**. Refer to the final project brief.
