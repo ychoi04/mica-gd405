@@ -97,13 +97,10 @@
 - [Motion](lectures/w10-motion.md)
 - [Trigonometry](lectures/w10-trigonometry.md)
 - [Interpolation](lectures/w10-interpolation.md)
-
-<!--
-- Object review: [here](http://codepen.io/cdaein/pen/wJmMpp) and [here](http://codepen.io/cdaein/pen/QpmNOe)
 - [assignments](lectures/w10-assignments.md)
 
+<!--
 ### Week 11
-
 - [Final project brief](lectures/w11/final-project.md)
 
 ### Week 12
