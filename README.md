@@ -94,6 +94,7 @@
 *No class - Spring Break*
 
 ### Week 10
+- [Type Setting with Array](lectures/w10-array-type-setting.md)
 
 <!--
 - [Motion](lectures/w7/motion.md)
@@ -105,9 +106,7 @@
 - [assignments](lectures/w10/w10-assignments.md)
 
 ### Week 11
-- Present the Interactive Type Poster
-- [Array](lectures/w11/arrays.md)
-- [Type Setting with Array](lectures/w11/array-type-setting.md)
+
 - [Final project brief](lectures/w11/final-project.md)
 
 ### Week 12
