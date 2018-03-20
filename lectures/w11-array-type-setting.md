@@ -3,7 +3,7 @@
 We will continue from [this Glyph object example](https://github.com/cdaein/mica-gd405-sp17/blob/gh-pages/lectures/w8/object-glyph.md). Now it's possible to dynamically type and remove letters.
 
 ## Main sketch
-```
+```java
 Glyph[] typed;
 int total = 0; // keep track of number of glyphs typed
 
@@ -51,7 +51,7 @@ void keyPressed() {
 ## Glyph class
 The Glyph class is the same as before.
 
-```
+```java
 class Glyph {
   char gly;
   float ts; // text size;
