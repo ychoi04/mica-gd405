@@ -76,7 +76,7 @@ void draw() {
   xpos += xspeed;
   
   if (xpos > width - textWidth(str)) {
-    xpos = width - textWidth(str)
+    xpos = width - textWidth(str);
     xspeed *= -1;
   }
   if (xpos < 0) {
