@@ -46,7 +46,7 @@ void draw() {
   }
 }
 ```
-The problem is that my canvas width is much larger than `255` or the maximum color value, so the half of my screen is just white. How can we make sure that the gradient spans across the entire width? It's time to use `map()`. `map()` *remaps* a range to a new range. It's like a rubber band that can stretch or shrink.
+The problem is that my window size is much larger than `255` or the maximum color value, so the half of my screen is just white. How can we make sure that the gradient spans across the entire width? It's time to use `map()`. `map()` *remaps* a range to a new range. It's like a rubber band that can stretch or shrink.
 
 ```java
 void setup() {
@@ -78,7 +78,7 @@ void draw() {
   bnwGradient(250, 300, 100, 80);
 }
 
-void bnwGradient(x, y, w, h) {
+void bnwGradient(float x, float y, float w, float h) {
   pushMatrix();
   translate(x, y);
   for (int i = 0; i < w; i++) {
@@ -92,6 +92,7 @@ void bnwGradient(x, y, w, h) {
 If you are interested in more gradients, take a look at these examples - [linear gradient](https://p5js.org/examples/color-linear-gradient.html) and [radial gradient](https://p5js.org/examples/color-radial-gradient.html).
 
 ## Linear interpolation, or lerp
+https://processing.org/reference/lerp_.html
 `lerp()` function is like a ruler. You will give it start value, end value, and you can get any number at any increment.
 
 What is the number at 50% location between 0 and 100? That's easy - it's 50.
@@ -176,6 +177,10 @@ void mousePressed() {
   targetY = mouseY;
 }
 ```
+
+## Growing path using lerp()
+Because now we can get any coordinate between any two points, it can also be used to animate a path growing.
+
 
 
 ## Further learning
