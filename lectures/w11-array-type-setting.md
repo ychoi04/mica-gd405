@@ -2,79 +2,84 @@
 
 We will continue from [this Glyph object example](https://github.com/cdaein/mica-gd405-sp17/blob/gh-pages/lectures/w8/object-glyph.md). Now it's possible to dynamically type and remove letters.
 
-```js
-var typed = []; // we will store typed glyph information here.
+## Main sketch
+```
+Glyph[] typed;
+int total = 0; // keep track of number of glyphs typed
 
-function setup() {
-	createCanvas(400, 400);
-	textSize(48);
+void setup() {
+ size(400, 400);
+ textSize(48);
+ 
+ typed = new Glyph[100]; // this array can store 100 glyph objects.
 }
 
-function draw() {
-	background(200);
-	
-	var xpos = 50; // beginning location
-	var ypos = 50;
-	var leading = map(mouseY, 0, height, 8, 50); // dynamic leading
-	
-	// loop through every Glyph objects stored in typed array.
-	// we do this every frame.
-	for (var i = 0; i < typed.length; i++) {
-		var g = typed[i]; // get the object at i index.
-		g.setPosition(xpos, ypos);
-		g.draw();
-		
-		xpos += g.getWidth(); // update xpos for the next glyph
-		if (xpos > width - 50) { // line break
-			xpos = 50;
-			ypos += leading;
-		}
-	}
-	
-	// check the current xpos, ypos
-	//stroke(255, 0, 0);
-	//line(xpos, ypos, xpos, ypos-leading);
+void draw() {
+  background(234);
+  
+  float xpos = 50;
+  float ypos = 100;
+  //float leading = 50;
+  float leading = map(mouseY, 0, height, 5, 150);
+  
+  for (int i = 0; i < total; i++) {
+    Glyph g = typed[i]; // get Glyph object at i index.
+    g.setPosition(xpos, ypos);
+    g.draw();
+    
+    xpos += g.getWidth();
+    // line break
+    if (xpos > width - 50) {
+     xpos = 50;
+     ypos += leading;
+    }
+  }
 }
 
-function keyPressed() {
-	// when delete key is pressed, remove the last item from the array.
-	if (keyCode == DELETE || keyCode == BACKSPACE) {
-		typed.splice(typed.length-1, 1);
-	}
-}
-
-function keyTyped() {
-	// each time you type a key, it will create a Glyph object
-	// and get pushed(stored) in typed array.
-	var g = new Glyph(key);
-	typed.push(g);
-}
-
-// glyph object constructor function
-function Glyph(gly) {
-	this.gly = gly;
-	this.x;
-	this.y;
-	this.w;
-	
-	// we need to calculate glyph width to have a correct tracking.
-	this.getWidth = function() {
-		this.w = textWidth(this.gly);
-		return this.w;
-	};
-	
-	this.setPosition = function(x, y) {
-		this.x = x;
-		this.y = y;
-	};
-	
-	this.draw = function() {
-		fill(0);
-		noStroke();
-		text(this.gly, this.x, this.y);
-	};
-	
+void keyPressed() { 
+  Glyph g = new Glyph(key);
+  typed[total] = g;
+  
+  total++;
+  // make sure we don't try to go beyond typed array length
+  if (total >= typed.length) {
+    total = typed.length - 1;
+  }
 }
 ```
 
+## Glyph class
+The Glyph class is the same as before.
+
+```
+class Glyph {
+  char gly;
+  float ts; // text size;
+  float x;
+  float y;
+  float w; // text width
+  
+  Glyph(char _gly) {
+    gly = _gly;
+    ts = 48;
+    textSize(ts);
+    w = textWidth(gly);
+  }
+  
+  float getWidth() {
+    return w;
+  };
+  
+  void setPosition(float _x, float _y) {
+    x = _x;
+    y = _y;
+  };
+  
+  void draw() {
+    textSize(ts);
+    fill(0);
+    text(gly, x, y);
+  };
+}
+```
 *Exercise: What other functionalities can you add to the Glyph object?*
