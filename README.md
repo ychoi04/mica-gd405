@@ -94,11 +94,11 @@
 
 ### Week 10
 - [Type Setting with Array](lectures/w10-array-type-setting.md)
+- [Motion](lectures/w10-motion.md)
+- [Trigonometry](lectures/w10-trigonometry.md)
+- [Interpolation](lectures/w10-interpolation.md)
 
 <!--
-- [Motion](lectures/w7/motion.md)
-- [Trigonometry](lectures/w7/trigonometry.md)
-- [Interpolation](lectures/w7/interpolation.md)
 - Object review: [here](http://codepen.io/cdaein/pen/wJmMpp) and [here](http://codepen.io/cdaein/pen/QpmNOe)
 - [assignments](lectures/w10-assignments.md)
 
