@@ -17,6 +17,7 @@
 - [Computational typography resources Trello board](https://trello.com/b/1P0cgPsv/computational-typography-resources)
 
 ## Weekly
+
 ### Week 1
 - [Stanford Karel](http://stanford.edu/%7Ecpiech/karel/learn.html) programming exercises
 - [Survey](https://goo.gl/forms/RP3SSk7o9McPhvr53) - sign in with your MICA email account.
@@ -63,7 +64,6 @@
   - Download [example files](files/pdf-saving-in-processing.zip).
 - [assignments](lectures/w5-assignments.md)
 
-
 ### Week 6
 - Loops
   - [challenges](lectures/w6-loop-challenge.md)
@@ -71,7 +71,6 @@
 - [Typographic patterns](lectures/w6-type-patterns.md)
 - [Radial patterns](lectures/w6-radial-patterns.md)
 - [assignments](lectures/w6-assignments.md)
-
 
 ### Week 7
 - [Problems with your code?](lectures/w7-problem-solving-tips.md)
@@ -100,10 +99,8 @@
 - [Motion](lectures/w7/motion.md)
 - [Trigonometry](lectures/w7/trigonometry.md)
 - [Interpolation](lectures/w7/interpolation.md)
-
-### Week 10
 - Object review: [here](http://codepen.io/cdaein/pen/wJmMpp) and [here](http://codepen.io/cdaein/pen/QpmNOe)
-- [assignments](lectures/w10/w10-assignments.md)
+- [assignments](lectures/w10-assignments.md)
 
 ### Week 11
 
