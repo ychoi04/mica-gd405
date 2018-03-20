@@ -101,12 +101,14 @@
 
 <!--
 ### Week 11
-- [Final project brief](lectures/w11/final-project.md)
+- [Final project brief](lectures/proj-final.md)
 
 ### Week 12
-- [assingments](lectures/w12/w12-assignments.md)
+- [assingments](lectures/w12-assignments.md)
 
 ### Week 14
+- Zach Lieberman's Workshop
+
 - [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
 
 -->
