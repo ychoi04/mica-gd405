@@ -181,7 +181,86 @@ void mousePressed() {
 ## Growing path using lerp()
 Because now we can get any coordinate between any two points, it can also be used to animate a path growing.
 
+```java
+float x1;
+float y1;
+float x2;
+float y2;
+float amt = 0; // between 0 and 1; 0 will be beginning number, 1 will be ending number.
 
+void setup() {
+ size(400, 400);
+ 
+ x1 = 50;
+ y1 = 50;
+ x2 = 250;
+ y2 = 320;
+}
+
+void draw() {
+  background(234);
+  
+  // get a coordinate somewhere inbetween. we have to do this for each dimension separately.
+  float midx = lerp(x1, x2, amt);
+  float midy = lerp(y1, y2, amt);
+  
+  // draw a line starting from (x1, y1) to somewhere in the middle (midx, midy)
+  // if amt is 0, (midx, midy) will be same as (x1, y1) so no line will be displayed.
+  // if amt is 1, (midx, midy) will be same as (x2, y2) so the full line will be drawn.
+  line(x1, y1, midx, midy);
+  
+  // amt should be between 0 and 1
+  amt = map(mouseX, 0, width, 0, 1);
+}
+```
+
+I decided to make it into a function with input parameters for multiple line segments:
+
+```java
+float[] xs = { 20, 140, 160, 200, 323 };
+float[] ys = { 50, 120, 390, 220, 180 };
+float amt;
+
+void setup() {
+  size(500, 500);
+  strokeWeight(2);
+}
+
+void draw() {
+  background(234); 
+  noFill();
+
+  growLine(xs, ys, amt);
+  
+  amt += 0.01;
+  if (amt >= 1) {
+    amt = 0;
+  }
+}
+
+void growLine(float[] txs, float[] tys, float tamt) {
+  if (tamt <= 0) return;
+
+  float nx = 0;
+  float ny = 0;
+  
+  beginShape();
+  vertex(txs[0], tys[0]);
+  int numPoints = txs.length;
+  for (int i = 0; i < numPoints-1; i++) {
+    float currOffset = (float)i/numPoints;
+    float nextOffset = (float)(i+1)/numPoints;
+    if (tamt >= currOffset) {
+      float amtMapped = map(tamt, currOffset, nextOffset, 0, 1);
+      nx = lerp(txs[i], txs[i+1], constrain(amtMapped, 0, 1));
+      ny = lerp(tys[i], tys[i+1], constrain(amtMapped, 0, 1));
+      stroke(0);
+      vertex(nx, ny);
+    }
+  }
+  endShape();
+}
+```
 
 ## Further learning
 - [Coding Math - Normalization](http://www.codingmath.com/?p=27)
