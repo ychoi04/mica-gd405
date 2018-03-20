@@ -97,6 +97,7 @@
 - [Motion](lectures/w10-motion.md)
 - [Trigonometry](lectures/w10-trigonometry.md)
 - [Interpolation](lectures/w10-interpolation.md)
+- **[Final Project](lectures/proj-final.md)** 
 - [assignments](lectures/w10-assignments.md)
 
 <!--
