@@ -2,7 +2,7 @@
 
 ## 1 dimensional motion
 
-```js
+```java
 float xpos; //global to make it accessible from everywhere.
 
 void setup() {
@@ -26,7 +26,7 @@ void mousePressed() {
 ```
 
 ### Edge handling: scroll
-```js
+```java
 float xpos; //global to make it accessible from everywhere.
 String str;
 
@@ -55,7 +55,7 @@ void mousePressed() {
 ```
 
 ### Edge handling: bounce
-```js
+```java
 float xpos;
 float xspeed;
 String str;
