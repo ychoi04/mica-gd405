@@ -217,9 +217,10 @@ void draw() {
 I decided to make it into a function with input parameters for multiple line segments:
 
 ```java
+// define a series of (x, y) coordinates
 float[] xs = { 20, 140, 160, 200, 323 };
 float[] ys = { 50, 120, 390, 220, 180 };
-float amt;
+float amt = 0; // betwee  0 and 1
 
 void setup() {
   size(500, 500);
@@ -238,6 +239,9 @@ void draw() {
   }
 }
 
+/*
+growLine() takes array as inputs so you can draw as many line segments as needed.
+*/
 void growLine(float[] txs, float[] tys, float tamt) {
   if (tamt <= 0) return;
 
