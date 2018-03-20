@@ -8,7 +8,7 @@ There are a lot of interesting things about trigonometry, but here, we will look
 
 The only thing you need to know now is that the value we get from the sine function changes smoothly between -1 and 1 as `x` or `angle` increases.
 
-```js
+```java
 float diam;
 float angle;
 
@@ -45,9 +45,10 @@ We get almost breathing-like animation. `sin()` is great to make your animation 
 
 ## Circular motion using trigonometry
 
-```js
+```java
 float xpos;
 float ypos;
+float diam;
 float angle;
 
 void setup() {
