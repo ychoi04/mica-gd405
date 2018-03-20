@@ -1,6 +1,6 @@
 # Final Project
 
-The final project is an open project as long as it is related to generative typography. The only requirement is to use external data in your project. Look back at everything you have done so far - sketches, notes, assignments, etc.
+The final project is an open project as long as it is related to generative typography. The only requirement is to use some kind of external data in your project. Look back at everything you have done so far - sketches, notes, assignments, etc.
 
 You may make it as practical and functional, or as experimental and unconventional as you want, but make sure you are not just replicating an existing project. It is so easy to just copy and paste someone else's codes without understanding what is really going on. When you use other people's codes, use them as building blocks for your own ideas.
 
@@ -47,19 +47,20 @@ At the end of the project, you will submit:
 
 ## Schedule
 
-### Week 11
+### Week 10
 project announcement  
-prep for the idea/research presentation - bring in a PDF file describing **2 different ideas**. You will choose one based on feedbacks.  
-In your presentation, you must include:
+initial research - Bring in **2 different ideas**. For each idea, present the following materials:
   - concept
-  - sketches
+  - rough sketches
   - inspirations,
-  - references,
-  - what resources you need
-  - a rough weekly schedule
+  - references
+  
+### Week 11
+more research  
+work on the first prototypes
 
 ### Week 12
-first working prototype presentation - the design/coding may not be polished, but you should demonstrate a simple working prototype.
+review the first prototype
 
 ### Week 13
 work in class
