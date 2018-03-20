@@ -43,7 +43,7 @@ _Optionally, you can work as a team (max.2 people) although it is not required. 
 At the end of the project, you will submit:
 - Your code (it should run on anyone's computer)
 - Other supporting materials (ie. sketches, screenshots, video, etc.)
-- PDF Documentation: The format is up to you. You may use images, text, prototypes and/or video. Make this a formal PDF presentation.
+- PDF Documentation: The format is up to you. You may use images, text, prototypes and/or video. Make this a formal presentation.
 
 ## Schedule
 
