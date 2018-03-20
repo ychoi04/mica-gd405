@@ -1,6 +1,6 @@
 # Type Setting with Array
 
-We will continue from [this Glyph object example](https://github.com/cdaein/mica-gd405-sp17/blob/gh-pages/lectures/w8/object-glyph.md). Now it's possible to dynamically type and remove letters.
+We will continue from [this Glyph object example](https://github.com/cdaein/mica-gd405-sp17/blob/gh-pages/lectures/w8/object-glyph.md). Now it's possible to dynamically type and remove letters. Each character or glyph is stored as an object in an array so that we can access them anytime we want and change the data stored within.
 
 ## Main sketch
 ```java
