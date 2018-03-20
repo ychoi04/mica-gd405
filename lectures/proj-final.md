@@ -1,6 +1,6 @@
 # Final Project
 
-The final project is an open project as long as it is related to generative typography. The only requirement is to use some kind of external data in your project. Look back at everything you have done so far - sketches, notes, assignments, etc.
+The final project is an open project as long as it is related to generative typography. The only requirement is to use some kind of external data in your project to drive typographic forms and/or layout. Look back at everything you have done so far - sketches, notes, assignments, etc.
 
 You may make it as practical and functional, or as experimental and unconventional as you want, but make sure you are not just replicating an existing project. It is so easy to just copy and paste someone else's codes without understanding what is really going on. When you use other people's codes, use them as building blocks for your own ideas.
 
@@ -12,20 +12,19 @@ How does working with code change your ideas of graphic design? Think about ways
 
 Some possibilities are:
 
-- A series of printed generative type posters
-- Parametric type design
+- Parametric type design (either continuing earlier assignments or start a new one) and its use
 - A typeface that responds to external data (ie. location, sound, temperature, etc.)
-- Sensors to get external environmental data (ie. Arduino board)
+- A series of printed generative type posters 
 - Interactive type posters
-- Dynamic identity
+- Sensors to get external environmental data (ie. [Arduino board](https://www.arduino.cc))
+- Dynamic identity system
 - Type patterns generated through code
 - Interactive storytelling through type
 - A series of book covers generated from your type system
 - A publication that uses your computational type system
-- Something experimental, something speculative...
-- Design for mobile devices/touch interfaces
 - Live video input
 - Dimensional typography using 3d printer
+- Something experimental, something speculative...
 - What else?
 
 Again, it can take any format but make sure you are using external data (parameters) to control some aspects of typography.
@@ -52,7 +51,7 @@ project announcement
 initial research - Bring in **2 different ideas**. For each idea, present the following materials:
   - concept
   - rough sketches
-  - inspirations,
+  - inspirations
   - references
   
 ### Week 11
