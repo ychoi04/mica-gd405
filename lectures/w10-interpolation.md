@@ -1,6 +1,8 @@
 # Interpolation
 
 ## Constrain
+https://processing.org/reference/constrain_.html
+
 ```java
 int ts; // text size
 
@@ -15,13 +17,14 @@ void draw() {
 
   textSize(ts);
   text("a", width/2, height/2);
-  
+
   if (keyPressed) {
     if (keyCode == LEFT) {
       ts -= 4;
     } else if (keyCode == RIGHT) {
       ts += 4;
     }
+    // when ts gets smaller or bigger than the set range, it will be clamped.
     ts = constrain(ts, 96, 512);
   }
 }
