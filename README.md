@@ -101,10 +101,10 @@
 - **[Final Project](lectures/proj-final.md)** 
 - [assignments](lectures/w10-assignments.md)
 
-<!--
 ### Week 11
-- [Final project brief](lectures/proj-final.md)
+- Final project idea & research review
 
+<!--
 ### Week 12
 - [assingments](lectures/w12-assignments.md)
 
