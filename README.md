@@ -102,10 +102,14 @@
 - [assignments](lectures/w10-assignments.md)
 
 ### Week 11
-- Final project idea & research review
+- Final project initial research review
+- [assignments](lectures/w11-assignments.md)
+
+
+### Week 12
+- Idea/research presentation
 
 <!--
-### Week 12
 - [assingments](lectures/w12-assignments.md)
 
 ### Week 14
