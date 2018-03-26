@@ -8,5 +8,15 @@ What you may include:
 - research on the topic
 - any sketches and/or mockups
 - inspirations
-- references: anything similar has been done by other people? how is yours different from them?
+- references
 - resources (example codes, techniques, etc.)
+
+Some questions to ask yourself and include in your presentation:
+
+- what are you exploring with the project?
+- what is the goal (for yourself or for other people/users)?
+- how is it related to graphic design and typography?
+- anything similar has been done by other people? what can you learn from them?
+- how is yours different from them?
+- what is your weekly plan?
+
