@@ -1,6 +1,6 @@
 # Week 11 assignments
 
-Based on the feedbacks you got from your peers, choose one idea (or combine into one) for the final project. Prepare an idea/research presentation. Your presentation should be *professional* with its contents and its design. Create a multi-page PDF file that has all the text, images, links included.
+Based on the feedbacks you got from your peers, choose one idea (or combine into one) for the final project. **Prepare a formal idea/research presentation**. Your presentation should be *professional* with its contents and its design. Create a multi-page PDF file that has all the text, images, links included.
 
 What you may include:
 
