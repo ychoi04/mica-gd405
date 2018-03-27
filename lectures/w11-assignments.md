@@ -22,3 +22,5 @@ Some questions to ask yourself and include in your presentation:
 - how is yours different from them?
 - what is your weekly plan?
 
+## More
+- [Designing Better Design Documentation](https://medium.muz.li/design-docs-6bb34589f7a9)
