@@ -16,6 +16,7 @@ Some questions to ask yourself and include in your presentation:
 - what are you exploring with the project?
 - what data are you using? do you have them?
 - what is the goal (for yourself or for other people/users)?
+- what is the problem, if any, you are trying to solve?
 - how is it related to graphic design and typography?
 - anything similar has been done by other people? what can you learn from them?
 - how is yours different from them?
