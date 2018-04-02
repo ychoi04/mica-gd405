@@ -108,13 +108,15 @@
 
 ### Week 12
 - Idea/research presentation
+- Assignment
+  - continue to develop your project. Present the first working prototype (not just a design mockup) next week. 
+  
+### Week 13
+- Review prototypes
 
 <!--
-- [assingments](lectures/w12-assignments.md)
-
 ### Week 14
 - Zach Lieberman's Workshop
-
 - [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
 
 -->
