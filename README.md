@@ -113,6 +113,7 @@
   
 ### Week 13
 - Review prototypes
+- Bitmap font: download [code examples](https://github.com/cdaein/mica-gd405/blob/spring2018/files/bitmap-font.zip).
 - Assignment
   - continue to work on your project according to your schedule. Present the updated prototype next week.
   - Next week, we will have workshops with Zach Lieberman. You will need to bring your own laptops (if you don't have one, let me know asap.) We do not know yet what will be the workshop topics. 
