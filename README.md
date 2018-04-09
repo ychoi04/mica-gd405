@@ -131,4 +131,7 @@
 
 ### Week 15
 - Course evaluation
+
+### Week 16
+- Final critique
 -->
