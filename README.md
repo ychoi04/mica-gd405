@@ -117,7 +117,9 @@
   - continue to work on your project according to your schedule. Present the updated prototype next week.
   - Next week, we will have workshops with Zach Lieberman. You will need to bring your own laptops (if you don't have one, let me know asap.) We do not know yet what will be the workshop topics. 
   - Just to be on the safe side, 
-    - install [Brackets](http://brackets.io). install [p5.js](https://p5js.org). install [paper.js](http://paperjs.org).
+    - install [Brackets](http://brackets.io). 
+    - install [p5.js](https://p5js.org). 
+    - install [paper.js](http://paperjs.org).
     - install [openFrameWorks](http://openframeworks.cc). If you are on Mac, you will also need to install XCode. If you are on PC, you will need to install Visual Studio. Follow the guidess on openFrameWorks website.
 
 ### Week 14
