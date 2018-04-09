@@ -113,10 +113,14 @@
   
 ### Week 13
 - Review prototypes
+- Assignment
+  - continue to work on your project according to your schedule. Present the updated prototype next week.
+  - Next week, we will have workshops with Zach Lieberman. We do not know yet what will be the workshop topics. Just to be on the safe side, please install [openFrameWorks](http://openframeworks.cc). If you are on Mac, you will also need to install XCode. If you are on PC, you will need to install Visual Studio. Follow the guidess on openFrameWorks website.
 
-<!--
 ### Week 14
 - Zach Lieberman's Workshop
+
+<!--
 - [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
 
 -->
