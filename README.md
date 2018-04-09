@@ -129,4 +129,6 @@
 <!--
 - [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
 
+### Week 15
+- Course evaluation
 -->
