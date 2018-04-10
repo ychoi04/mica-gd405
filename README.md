@@ -121,13 +121,17 @@
     - install [Brackets](http://brackets.io). 
     - install [p5.js](https://p5js.org). 
     - install [paper.js](http://paperjs.org).
-    - install [openFrameWorks](http://openframeworks.cc). If you are on Mac, you will also need to install XCode. If you are on PC, you will need to install Visual Studio. Follow the guidess on openFrameWorks website.
+
 
 ### Week 14
 - Review prototypes
 - Zach Lieberman's Workshop; pizza will be provided.
 
 <!--
+
+    - install [openFrameWorks](http://openframeworks.cc). If you are on Mac, you will also need to install XCode. If you are on PC, you will need to install Visual Studio. Follow the guidess on openFrameWorks website.
+    
+    
 - [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
 
 ### Week 15
