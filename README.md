@@ -125,7 +125,7 @@
 
 ### Week 14
 - Review prototypes
-- Zach Lieberman's Workshop
+- Zach Lieberman's Workshop; pizza will be provided.
 
 <!--
 - [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
