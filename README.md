@@ -134,7 +134,7 @@
   - Finish the project.
   - **TEST before you submit.** Make sure it's working correctly.
   - Prepare the final PDF presentation. Don't just show your work. Walk us through your process. Pretend the audience doesn't know anything. Rehearse what you will talk about.
-  - Upload all the files on Google Drive.
+  - Upload all the files on Google Drive. (code, other supporting materials and PDF documentation)
   
 ### Week 16
 - Final presentation
