@@ -127,16 +127,18 @@
 - Review prototypes
 - Zach Lieberman's Workshop; pizza will be provided.
 
-<!--
-
-    - install [openFrameWorks](http://openframeworks.cc). If you are on Mac, you will also need to install XCode. If you are on PC, you will need to install Visual Studio. Follow the guidess on openFrameWorks website.
-    
-    
-- [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
-
 ### Week 15
 - Course evaluation
-
+- work in class
+- Assignment:
+  - Finish the project.
+  - **TEST before you submit.** Make sure it's working correctly.
+  - Upload all the files on Google Drive.
+  - Prepare the final PDF presentation. Don't just show your work. Walk us through your process. Pretend the audience doesn't know anything. Rehearse what you will talk about.
+  
 ### Week 16
-- Final critique
+- Final presentation
+
+<!--    
+- [animation transition example](http://codepen.io/cdaein/pen/gWadZG)
 -->
