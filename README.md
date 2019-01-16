@@ -23,9 +23,9 @@
 ## Weekly
 
 ### Week 1
+- [Survey](https://goo.gl/forms/dXS1OOjouX3uKIxD3) - sign in with your MICA email account.
 
 <!--
-- [Survey](https://goo.gl/forms/RP3SSk7o9McPhvr53) - sign in with your MICA email account.
 - [Stanford Karel](http://stanford.edu/%7Ecpiech/karel/learn.html) programming exercises
 - download [Processing](http://processing.org)
 - [assignments](lectures/w1-assignments.md)
