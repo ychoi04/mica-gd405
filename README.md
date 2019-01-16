@@ -25,8 +25,8 @@
 ### Week 1
 
 <!--
-- [Stanford Karel](http://stanford.edu/%7Ecpiech/karel/learn.html) programming exercises
 - [Survey](https://goo.gl/forms/RP3SSk7o9McPhvr53) - sign in with your MICA email account.
+- [Stanford Karel](http://stanford.edu/%7Ecpiech/karel/learn.html) programming exercises
 - download [Processing](http://processing.org)
 - [assignments](lectures/w1-assignments.md)
 
