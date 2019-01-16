@@ -9,7 +9,7 @@
 - Instructor: [Dae In Chung](http://paperdove.com)
 - email: [dchung01@mica.edu](mailto:dchung01@mica.edu)
 - Office: BR303
-- Office hours: Tue, Thu & Fridays - email for an appointment
+- Office hours: Tue, Wed & Thursdays - email for an appointment
 - [Syllabus](files/MICA-19SP-GD405-Syllabus.pdf)
 
 
