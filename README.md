@@ -12,15 +12,19 @@
 - Office hours: Tue, Thu & Fridays - email for an appointment
 - [Syllabus](files/MICA-19SP-GD405-Syllabus.pdf)
 
-<!--
+
 
 ## General resources
-- [Submit assignments here.](https://drive.google.com/drive/folders/11t0H6FQ7-p-8r-f7UgTzNdKfTzrla2VR?usp=sharing) - you don't need to request access. sign in with your MICA email account.
+- [Submit assignments here.](https://drive.google.com/drive/folders/1j6vehzcndAXkGYJk5uqRFyi9MuVnvGwE?usp=sharing) - you don't need to request access. sign in with your MICA email account.
 - [Computational typography resources Trello board](https://trello.com/b/1P0cgPsv/computational-typography-resources)
+
+
 
 ## Weekly
 
 ### Week 1
+
+<!--
 - [Stanford Karel](http://stanford.edu/%7Ecpiech/karel/learn.html) programming exercises
 - [Survey](https://goo.gl/forms/RP3SSk7o9McPhvr53) - sign in with your MICA email account.
 - download [Processing](http://processing.org)
