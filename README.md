@@ -12,6 +12,7 @@
 - Office hours: Tue, Wed & Thursdays - email for an appointment
 - [Syllabus](files/MICA-19SP-GD405-Syllabus.pdf)
 
+
 - [Submit assignments here.](https://drive.google.com/drive/folders/1j6vehzcndAXkGYJk5uqRFyi9MuVnvGwE?usp=sharing) - you don't need to request access. sign in with your MICA email account.
 
 
