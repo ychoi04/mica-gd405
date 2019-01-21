@@ -11,13 +11,7 @@
 - Office: BR303
 - Office hours: Tue, Wed & Thursdays - email for an appointment
 - [Syllabus](files/MICA-19SP-GD405-Syllabus.pdf)
-
-
-
-## General resources
 - [Submit assignments here.](https://drive.google.com/drive/folders/1j6vehzcndAXkGYJk5uqRFyi9MuVnvGwE?usp=sharing) - you don't need to request access. sign in with your MICA email account.
-- [Computational typography resources Trello board](https://trello.com/b/1P0cgPsv/computational-typography-resources)
-
 
 
 ## Weekly
@@ -25,13 +19,10 @@
 ### Week 1
 - [Survey](https://goo.gl/forms/dXS1OOjouX3uKIxD3) - sign in with your MICA email account.
 - download [Processing](http://processing.org)
-
-
-<!--
 - [Stanford Karel](http://stanford.edu/%7Ecpiech/karel/learn.html) programming exercises
-
 - [assignments](lectures/w1-assignments.md)
 
+<!--
 ### Week 2
 - How to document your process
   - take screenshots and screen recording (quicktime on macs)
