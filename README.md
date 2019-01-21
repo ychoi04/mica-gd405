@@ -25,13 +25,10 @@
 ### Week 1
 - [Survey](https://goo.gl/forms/dXS1OOjouX3uKIxD3) - sign in with your MICA email account.
 - download [Processing](http://processing.org)
-
-
-<!--
 - [Stanford Karel](http://stanford.edu/%7Ecpiech/karel/learn.html) programming exercises
-
 - [assignments](lectures/w1-assignments.md)
 
+<!--
 ### Week 2
 - How to document your process
   - take screenshots and screen recording (quicktime on macs)
