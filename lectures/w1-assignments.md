@@ -1,7 +1,7 @@
 # Week 1 assignments
 
 ## Google survey
-Please fill out the survey form.
+Please fill out the survey form. (link on the main page)
 
 ## Karel exercises
 This is an optional assignment. If you want to keep practicing with Stanford Karel, you can continue on your own. It will definitely be helpful although not required. Keep in mind the website is broken from Unit 10 on, and Unit 8 Lesson 5 is quite difficult.
