@@ -22,7 +22,6 @@
 - [Stanford Karel](http://stanford.edu/%7Ecpiech/karel/learn.html) programming exercises
 - [assignments](lectures/w1-assignments.md)
 
-<!--
 ### Week 2
 - How to document your process
   - take screenshots and screen recording (quicktime on macs)
@@ -31,6 +30,8 @@
 - [Drawing basics](lectures/w2-drawing-basics.md) 
 - [Main structure of a sketch](lectures/w2-main-structure.md)
 - [Advanced drawing](lectures/w2-drawing-advanced.md)
+
+<!--
 - [assignments](lectures/w2-assignments.md)
 
 ### Week 3
