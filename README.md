@@ -30,10 +30,10 @@
 - [Drawing basics](lectures/w2-drawing-basics.md) 
 - [Main structure of a sketch](lectures/w2-main-structure.md)
 - [Advanced drawing](lectures/w2-drawing-advanced.md)
+- [assignments](lectures/w2-assignments.md)
+- Use the *Issues tab* for technical questions.
 
 <!--
-- [assignments](lectures/w2-assignments.md)
-
 ### Week 3
 - [Variables](lectures/w3-variables.md)
 - [Arithmetic](lectures/w3-arithmetic.md)
