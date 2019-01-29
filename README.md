@@ -31,7 +31,7 @@
 - [Main structure of a sketch](lectures/w2-main-structure.md)
 - [Advanced drawing](lectures/w2-drawing-advanced.md)
 - [assignments](lectures/w2-assignments.md)
-- Use the *Issues tab* for technical questions.
+  - Use the *Issues tab* for technical questions.
 
 <!--
 ### Week 3
