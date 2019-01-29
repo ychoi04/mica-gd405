@@ -34,14 +34,17 @@
   - [coordinate system, color system, commenting](https://youtu.be/uPo3v4kdSNo)
   - [basic drawing functions](https://youtu.be/S7aYGn3Ftuw)
   - [sketch structure, save image](https://youtu.be/kJitjKtY8nk)
+  - [angle, arc, curves](https://youtu.be/C0pGhc-QRsg)
 - [assignments](lectures/w2-assignments.md)
   - Use the *Issues tab* for technical questions.
 
-<!--
+
 ### Week 3
 - [Variables](lectures/w3-variables.md)
 - [Arithmetic](lectures/w3-arithmetic.md)
 - [Randomness](lectures/w3-randomness.md)
+
+<!--
 - Basic Typography in Processing
   - [Tutorial](https://processing.org/tutorials/typography/) from Processing.org
 - [assignments](lectures/w3-assignments.md)
