@@ -33,7 +33,7 @@
 - Lecture video recordings
   - [coordinate system, color system, commenting](https://youtu.be/uPo3v4kdSNo)
   - [basic drawing functions](https://youtu.be/S7aYGn3Ftuw)
-  - 
+  - [sketch structure, save image](https://youtu.be/kJitjKtY8nk)
 - [assignments](lectures/w2-assignments.md)
   - Use the *Issues tab* for technical questions.
 
