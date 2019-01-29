@@ -30,6 +30,9 @@
 - [Drawing basics](lectures/w2-drawing-basics.md) 
 - [Main structure of a sketch](lectures/w2-main-structure.md)
 - [Advanced drawing](lectures/w2-drawing-advanced.md)
+- Lecture video recordings
+  - [coordinate system, color system, commenting](https://youtu.be/uPo3v4kdSNo)
+  - 
 - [assignments](lectures/w2-assignments.md)
   - Use the *Issues tab* for technical questions.
 
