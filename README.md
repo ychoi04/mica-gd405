@@ -43,12 +43,11 @@
 - [Variables](lectures/w3-variables.md)
 - [Arithmetic](lectures/w3-arithmetic.md)
 - [Randomness](lectures/w3-randomness.md)
-
-<!--
 - Basic Typography in Processing
   - [Tutorial](https://processing.org/tutorials/typography/) from Processing.org
 - [assignments](lectures/w3-assignments.md)
 
+<!--
 ### Week 4
 - [Type Setting](lectures/w3-type-setting.md) - function and transformation
   - [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
