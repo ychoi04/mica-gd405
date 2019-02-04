@@ -19,5 +19,5 @@ We will practice using variables(parameters) this week. Our goal is not to desig
   - set your sketch size to 900 x 600 px.
   - you can use colors if you want, but keep *the background white*.
   - Save images(screen captures) of your design at different stages. 
-  - Post everything on Google Drive.
+  - Post everything (sketches, codes, screenshots, etc.) on Google Drive.
   - Note that (1) you have to upload the entire folder, not just `pde` file, (2) the folder and file must have the same name. 
