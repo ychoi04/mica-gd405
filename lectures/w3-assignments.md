@@ -7,7 +7,7 @@ Watch the videos below. Follow along, take notes and bring back the questions.
 
 -----
 ## Main assignment
-We will practice using variables(parameters) this week. Out goal is not to design a static form. We are more interested in the structure - how the forms are constructed. With the understanding of the structure, we create rules and system with code. Here, variables (or parameters) are data that make your type system respond to different conditions and create dynamic results.
+We will practice using variables(parameters) this week. Our goal is not to design a static form. We are more interested in the structure - how the forms are constructed. With the understanding of the structure, we create rules and system with code. Here, variables (or parameters) are data that make your type system respond to different conditions and create dynamic results.
 
 1. Go back to one of your type design assignment from last week. 
 1. Refine the design (formally and conceptually). This time, think about the rules that define your design across multiple letters. 
