@@ -43,8 +43,7 @@
 - [Variables](lectures/w3-variables.md)
 - [Arithmetic](lectures/w3-arithmetic.md)
 - [Randomness](lectures/w3-randomness.md)
-- Basic Typography in Processing
-  - [Tutorial](https://processing.org/tutorials/typography/) from Processing.org
+- Basic Typography [tutorial](https://processing.org/tutorials/typography/) from Processing.org
 - [assignments](lectures/w3-assignments.md)
 
 <!--
