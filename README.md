@@ -38,7 +38,6 @@
 - [assignments](lectures/w2-assignments.md)
   - Use the *Issues tab* for technical questions.
 
-
 ### Week 3
 - [Variables](lectures/w3-variables.md)
 - [Arithmetic](lectures/w3-arithmetic.md)
@@ -46,8 +45,9 @@
 - Basic Typography [tutorial](https://processing.org/tutorials/typography/) from Processing.org
 - [assignments](lectures/w3-assignments.md)
 
-<!--
 ### Week 4
+
+<!--
 - [Type Setting](lectures/w3-type-setting.md) - function and transformation
   - [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
   - [p5.js transformation tutorial](https://creative-coding.decontextualize.com/transformations-and-functions/)
@@ -57,9 +57,6 @@
 - [assignments](lectures/w4-assignments.md)
 
 ### Week 5
-- Announcement: [Zach Lieberman](https://www.instagram.com/zach.lieberman/)'s visit
-  - talk on Monday April 16
-  - workshops on Tuesday April 17
 - [Conditionals](lectures/w5-conditionals.md)
 - [Page Setting](lectures/w5-page-setting.md): typing, margin, etc.
 - [How to export to Image formats](lectures/w5-image-export.md)
