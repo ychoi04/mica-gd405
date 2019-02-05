@@ -43,6 +43,9 @@
 - [Arithmetic](lectures/w3-arithmetic.md)
 - [Randomness](lectures/w3-randomness.md)
 - Basic Typography [tutorial](https://processing.org/tutorials/typography/) from Processing.org
+- Lecture video recordings:
+  - [variables](https://youtu.be/KUmGGkVcol8)
+  - [arithmetic, randomness](https://youtu.be/u4AmOhF9Yhg)
 - [assignments](lectures/w3-assignments.md)
 
 ### Week 4
