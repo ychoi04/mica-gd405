@@ -57,15 +57,17 @@
   - [constrain()](https://processing.org/reference/constrain_.html)
 - [assignments](lectures/w4-assignments.md)
 
-
-<!--
 ### Week 5
 - [Conditionals](lectures/w5-conditionals.md)
 - [Page Setting](lectures/w5-page-setting.md): typing, margin, etc.
 - [How to export to Image formats](lectures/w5-image-export.md)
+
+<!--
+
 - How to export to PDF
   - [Tutorial on Processing.org](https://processing.org/reference/libraries/pdf/index.html)
   - Download [example files](files/pdf-saving-in-processing.zip).
+  
 - [assignments](lectures/w5-assignments.md)
 
 ### Week 6
