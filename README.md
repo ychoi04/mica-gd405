@@ -55,10 +55,10 @@
 - How to set minimum and maximum values
   - [map()](https://processing.org/reference/map_.html)
   - [constrain()](https://processing.org/reference/constrain_.html)
-  
-<!--
 - [assignments](lectures/w4-assignments.md)
 
+
+<!--
 ### Week 5
 - [Conditionals](lectures/w5-conditionals.md)
 - [Page Setting](lectures/w5-page-setting.md): typing, margin, etc.
