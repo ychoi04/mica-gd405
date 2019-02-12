@@ -25,7 +25,6 @@ We will continue designing letters and this week, we will have a better structur
     beginShape();
     .
     .
-    translate(x, y);
     strokeWeight(sw);
     fill(col);
     .
