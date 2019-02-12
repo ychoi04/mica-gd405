@@ -11,7 +11,7 @@ Watch the videos, follow along, take notes and bring back questions:
 We will continue designing letters and this week, we will have a better structure with functions and flexibility with parameters. It is also a good idea to start thinking about making a full set of letters as that will be our future goal.
 
 1. Look back at your previous letter design assignments and choose one design that you want to develop further. (If you have new ideas, you can develop them instead as long as you meet the requirements.)
-1. Design **4 additional letters** on top of what you already have (either CODE, TYPE or FORM). In total, you will have at least 7 letters designed.
+1. Design **4 additional letters** on top of what you already have (either CODE, TYPE or FORM). In total, you will have at least 8 letters designed.
 1. Now, think about what typographic properties you can control by turning them into *variables/parameters*. Examples include letter width, letter height, x-height, serif, weight, slant, spacing, tracking, color, contrast, roundness, etc.
 1. Create functions for drawing each letter. For example, all the drawing code for A will be stored in `drawA()` function, so that when you call the function, you will be able to draw the letter.
 1. With a simple function like `drawA()`, you can only draw a letter at a fixed location. You want to be able to set the type at any location by adding `x` and `y` parameters. Plus, add **two** more parameters of your choice. Refer back to the lecture notes on type setting with functions. So, your function may look something like an example below.
