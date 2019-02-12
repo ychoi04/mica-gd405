@@ -57,6 +57,7 @@
   - [constrain()](https://processing.org/reference/constrain_.html)
 - Lecture video
   - [type setting with function](https://youtu.be/jyKFifibP2s)
+  - [more function](https://youtu.be/c6rEt68msTk)
 - [assignments](lectures/w4-assignments.md)
 
 ### Week 5
