@@ -49,7 +49,8 @@ We will continue designing letters and this week, we will have a better structur
 - Post everything on Google Drive.
 
 ### Inspirations
-- [Wim Crouwel](https://www.google.com/search?q=wim+crouwel&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiPv7Sz6urRAhUD5CYKHU1bC08Q_AUICCgB&biw=1920&bih=1080#tbm=isch&q=wim+crouwel+type+design), [Dutch Profile: Wim Crouwel video](https://www.youtube.com/watch?v=DAsk8Q_dFj8)
+- [Wim Crouwel](https://www.google.com/search?q=wim+crouwel&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiPv7Sz6urRAhUD5CYKHU1bC08Q_AUICCgB&biw=1920&bih=1080#tbm=isch&q=wim+crouwel+type+design)
+- [Dutch Profile: Wim Crouwel video](https://www.youtube.com/watch?v=DAsk8Q_dFj8)
 - [Jurriaan Schrofer](https://www.google.com/search?q=jurriaan+schrofer&client=safari&rls=en&biw=1920&bih=1080&source=lnms&tbm=isch&sa=X&ved=0ahUKEwif-K3V6urRAhVNgiYKHfmBCAkQ_AUIBigB)
 - [Norm](https://www.google.com/search?q=norm+swiss+design&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjW9qX_6urRAhWEVyYKHXPgCawQ_AUICCgB&biw=1920&bih=1080#imgrc=_)
 - [Code and Type](http://code-type.com)
