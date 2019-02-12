@@ -55,6 +55,8 @@
 - How to set minimum and maximum values
   - [map()](https://processing.org/reference/map_.html)
   - [constrain()](https://processing.org/reference/constrain_.html)
+- Lecture video
+  - [type setting with function](https://youtu.be/jyKFifibP2s)
 - [assignments](lectures/w4-assignments.md)
 
 ### Week 5
