@@ -87,7 +87,6 @@ vertex(10,50);
 vertex(20,40);
 vertex(50,40);
 endShape();
-}
 ```
 
 ## Use functions
