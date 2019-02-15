@@ -69,9 +69,7 @@
   - https://www.youtube.com/watch?v=54a01rdjB0A (English)
   - https://www.youtube.com/watch?v=rDOZvMqmjEg&t=24s (Korean)
   
-<!--
-  - Download [example files](files/pdf-saving-in-processing.zip).
-  
+<!--  
 - [assignments](lectures/w5-assignments.md)
 
 ### Week 6
