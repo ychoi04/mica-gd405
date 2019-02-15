@@ -66,9 +66,7 @@
 - [How to export to Image formats](lectures/w5-image-export.md)
 - How to export to PDF
   - [Tutorial on Processing.org](https://processing.org/reference/libraries/pdf/index.html)
-  - https://www.youtube.com/watch?v=54a01rdjB0A (English)
-  - https://www.youtube.com/watch?v=rDOZvMqmjEg&t=24s (Korean)
-  
+  - https://www.youtube.com/watch?v=54a01rdjB0A 
 <!--  
 - [assignments](lectures/w5-assignments.md)
 
