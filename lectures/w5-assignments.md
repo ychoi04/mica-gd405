@@ -13,7 +13,7 @@ Just to give you a heads up, our Final Project (starting week 10) will explore t
 We will see how our type design holds up in a different context by making a type poster.
 
 - Create a poster that showcases what your type design can do.
-- As the poster is a static medium, animation/interactions will not work on paper. Instead, think about other effective ways of showing your types' personalities. For example, use repetitions and [small multiples](https://en.wikipedia.org/wiki/Small_multiple). What is interesting about designing programmatically? You can think of this poster image as a promotional material for your type.
+- Before we get into making our posters interactive, we will work on a static poster this time so that we can pay more attention to control forms and compositions. As the poster is a static medium, animation/interactions will not work on paper. Instead, think about other effective ways of showing your types' personalities. For example, use repetitions and [small multiples](https://en.wikipedia.org/wiki/Small_multiple). What is interesting about designing programmatically? You can think of this poster image as a promotional material for your type.
 - If you export PDF out of Processing, then you can open the file in Illustrator and make fine adjustments.
 - You may combine the elements from other sketches/softwares.
 - Use 11 x 17 inch format. Vertical orientation only.
