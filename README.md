@@ -69,13 +69,12 @@
   - [Tutorial on Processing.org](https://processing.org/reference/libraries/pdf/index.html)
   - https://www.youtube.com/watch?v=54a01rdjB0A (English)
   - https://www.youtube.com/watch?v=rDOZvMqmjEg&t=24s (Korean)
-<!--  
 - [assignments](lectures/w5-assignments.md)
 
+<!--  
 ### Week 6
 - Loops
   - [challenges](lectures/w6-loop-challenge.md)
-- [Processing transformation tutorial](https://processing.org/tutorials/transform2d/)
 - [Typographic patterns](lectures/w6-type-patterns.md)
 - [Radial patterns](lectures/w6-radial-patterns.md)
 - [assignments](lectures/w6-assignments.md)
