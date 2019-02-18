@@ -29,6 +29,7 @@ We will continue designing letters and this week, we will have a better structur
     fill(col);
     .
     .
+    endShape();
   }
   
   // then when you call the function inside draw(), you can connect mouse variables as below:
