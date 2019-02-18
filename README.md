@@ -61,6 +61,7 @@
 - [assignments](lectures/w4-assignments.md)
 
 ### Week 5
+- Transformation
 - [Conditionals](lectures/w5-conditionals.md)
 - [Page Setting](lectures/w5-page-setting.md): typing, margin, etc.
 - [How to export to Image formats](lectures/w5-image-export.md)
