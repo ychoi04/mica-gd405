@@ -18,7 +18,7 @@ We will see how our type design holds up in a different context by making a type
 - You may combine the elements from other sketches/softwares.
 - Use 11 x 17 inch format. Vertical orientation only.
 - Upload the finalized poster image file (PDF or PNG) on Google Drive.
-- This poster will later be used for magnetic boards display so make sure it's print-ready.
+- This poster will later be used for magnetic boards display so make sure the file is editable for any future adjustments.
 
 ### Inspirations
 - [Muir McNeil](http://www.muirmcneil.com) and their talk on [TYPO](http://www.typotalks.com/videos/muir-mcneil-2/)
