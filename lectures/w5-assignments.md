@@ -4,9 +4,9 @@
 
 As we continue to think about the "constructed" letterforms and the system, we should not just focus on the technical aspect (coding). Start by defining your own goals. How does your work relate to other existing projects? What problems are you trying to solve? How do you want people to use your design? What is missing or weak in the current version?
 
-This week, I would like you to find your own direction to develop your design further based on what you already have. This could include designing more letters, refining the forms, adding more interactions and parameters, etc. 
+This week, I would like you to find your own direction to develop your design further based on what you already have. Add a few more letters to your type design, refine the forms, add more interactions and parameters, etc. 
 
-Just to give you a heads up, our Final Project (starting week 10) will explore types that respond to external conditions and it can be based upon the design you've been working on, so please take enough time now to fully explore different concepts, visuals and techniques.
+
 
 ### Part 2: Let's put our type to use!
 
