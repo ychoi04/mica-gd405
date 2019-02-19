@@ -69,6 +69,9 @@
   - [Tutorial on Processing.org](https://processing.org/reference/libraries/pdf/index.html)
   - https://www.youtube.com/watch?v=54a01rdjB0A (English)
   - https://www.youtube.com/watch?v=rDOZvMqmjEg&t=24s (Korean)
+- Lecture videos:
+  - [page setting 1](https://youtu.be/FASFWMAeCdY)
+  - [page setting 2](https://youtu.be/61zUl9q6bnA)
 - [assignments](lectures/w5-assignments.md)
 
 <!--  
