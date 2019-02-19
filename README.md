@@ -74,10 +74,12 @@
   - [page setting 2](https://youtu.be/61zUl9q6bnA)
 - [assignments](lectures/w5-assignments.md)
 
-<!--  
+
 ### Week 6
 - Loops
   - [challenges](lectures/w6-loop-challenge.md)
+  
+<!--  
 - [Typographic patterns](lectures/w6-type-patterns.md)
 - [Radial patterns](lectures/w6-radial-patterns.md)
 - [assignments](lectures/w6-assignments.md)
