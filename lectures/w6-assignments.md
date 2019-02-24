@@ -10,3 +10,7 @@ Watch the videos below. Take notes, bring back questions:
 ## Type Design
 - Create all twenty six alphabets plus a few more special characters of your choice (ie. question mark, quotations, period, etc.).
 - All letter drawing codes should be in their own function definitions (ie. `drawA(), drawQuestionMark()`)
+- Make two sketches:
+  1. First, lay out all the letters by calling each function manually.
+  1. Second, make your sketch interactive, where users can type in their own messages with proper margins, line breaks, etc.
+  
