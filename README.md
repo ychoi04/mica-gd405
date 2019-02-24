@@ -80,12 +80,12 @@
   - [challenges](lectures/w6-loop-challenge.md)
 - [Typographic patterns](lectures/w6-type-patterns.md)
 - [Radial patterns](lectures/w6-radial-patterns.md)
-
-<!--  
 - [assignments](lectures/w6-assignments.md)
 
 ### Week 7
 - [Problems with your code?](lectures/w7-problem-solving-tips.md)
+
+<!--  
 - [review](lectures/w7-review.md)
 - Object / Class
   - [Tutorial from processing.org](https://processing.org/tutorials/objects/)
