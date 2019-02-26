@@ -81,6 +81,7 @@
   - [challenges](lectures/w6-loop-challenge.md)
 - [Typographic patterns](lectures/w6-type-patterns.md)
 - [Radial patterns](lectures/w6-radial-patterns.md)
+- Lecture video: [for loop](https://youtu.be/eWsSASuak94)
 - [assignments](lectures/w6-assignments.md)
 
 
