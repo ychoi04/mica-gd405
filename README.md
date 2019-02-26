@@ -82,10 +82,10 @@
 - [Radial patterns](lectures/w6-radial-patterns.md)
 - [assignments](lectures/w6-assignments.md)
 
-- Trevor Pryce (former Ravens football player), author and creator of the animated series Kulipari: An Army of Frogs (Netflix) has a VX animation studio here in Baltimore and will give a presentation / looking for talent (Mar 6th 11:30a-12:30p in Brown 320 with pizza)
 
 ### Week 7
 - [Problems with your code?](lectures/w7-problem-solving-tips.md)
+- *Trevor Pryce (former Ravens football player), author and creator of the animated series Kulipari: An Army of Frogs (Netflix) has a VX animation studio here in Baltimore and will give a presentation / looking for talent (Wed, Mar 6th 11:30a-12:30p in Brown 320 with pizza)*
 
 <!--  
 - [review](lectures/w7-review.md)
