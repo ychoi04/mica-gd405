@@ -76,6 +76,7 @@
 
 
 ### Week 6
+- code examples: http://www.generative-gestaltung.de/
 - Loops
   - [challenges](lectures/w6-loop-challenge.md)
 - [Typographic patterns](lectures/w6-type-patterns.md)
