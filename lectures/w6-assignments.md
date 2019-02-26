@@ -20,3 +20,5 @@ Make your sketch interactive, where users can type in their own messages. Have p
 
 Optionally, you can add some graphical user interface elements to control some parameters. Look at **controlp5** library.
   
+## Poster
+Update your poster design based on the feedback, and bring in *11 x 17inch (vertical orientation only) printed poster* next week.
