@@ -96,7 +96,6 @@
 - [assignments](lectures/w7-assignments.md)
 
 ### Week 8
-- High resolution display (ie. apple retina): `pixelDensity(2)` or `pixelDensity(displayDensity())`
 - Object review
   - [Glyph object](lectures/w8-object-glyph.md)
   - [rain drop exercise](lectures/w8-object-raindrop.md)
@@ -132,19 +131,11 @@
 - Bitmap font: download [code examples](https://github.com/cdaein/mica-gd405/blob/spring2018/files/bitmap-font.zip).
 - Assignment
   - continue to work on your project according to your schedule. Present the updated prototype next week.
-  - Next week, we will have workshops with Zach Lieberman. You will need to bring your own laptops (if you don't have one, let me know asap.) We do not know yet what will be the workshop topics. 
-  - Just to be on the safe side, 
-    - install [Brackets](http://brackets.io). 
-    - install [p5.js](https://p5js.org). 
-    - install [paper.js](http://paperjs.org).
-
 
 ### Week 14
 - Review prototypes
-- Zach Lieberman's Workshop; pizza will be provided.
 
 ### Week 15
-- Course evaluation
 - work in class
 - Assignment:
   - Finish the project.
