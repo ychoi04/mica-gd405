@@ -91,10 +91,9 @@
 - [review](lectures/w7-review.md)
 - Object / Class
   - [Tutorial from processing.org](https://processing.org/tutorials/objects/)
-  
-<!--  
 - [assignments](lectures/w7-assignments.md)
 
+<!--  
 ### Week 8
 - Object review
   - [Glyph object](lectures/w8-object-glyph.md)
