@@ -91,6 +91,7 @@
 - [review](lectures/w7-review.md)
 - Object / Class
   - [Tutorial from processing.org](https://processing.org/tutorials/objects/)
+- Lecture video: [class/object](https://youtu.be/WlfHcqO_YWc)(no audio, sorry..)
 - [assignments](lectures/w7-assignments.md)
 
 <!--  
