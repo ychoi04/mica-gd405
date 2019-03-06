@@ -110,6 +110,7 @@
   - https://www.fontshop.com/news
   - https://www.emigre.com/Essays/Magazine
   - https://www.typotheque.com/articles
+  - https://programmingdesignsystems.com
 
 ### Week 10
 - [Type Setting with Array](lectures/w10-array-type-setting.md)
