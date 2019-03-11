@@ -96,8 +96,6 @@
 
 ### Week 8
 - Object review
-
-<!--  
   - [Glyph object](lectures/w8-object-glyph.md)
   - [rain drop exercise](lectures/w8-object-raindrop.md)
 - [Array](lectures/w8-array.md)
@@ -112,6 +110,8 @@
   - https://www.emigre.com/Essays/Magazine
   - https://www.typotheque.com/articles
   - https://programmingdesignsystems.com
+  
+<!--  
 
 ### Week 10
 - [Type Setting with Array](lectures/w10-array-type-setting.md)
