@@ -104,7 +104,7 @@
 - [assignments](lectures/w8-assignments.md)
 
 ### Week 9
-*No class - Spring Break*
+- *No class - Spring Break*
 - Things to read
   - https://www.fontshop.com/news
   - https://www.emigre.com/Essays/Magazine
