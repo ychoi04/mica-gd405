@@ -101,6 +101,7 @@
 - [Array](lectures/w8-array.md)
   - [Array tutorial from Processing.org](https://processing.org/tutorials/arrays/)
   - [Bouncing balls with array](lectures/w8-array-bouncing-ball.md)
+- [Lecture video](https://youtu.be/PQspGvEKLFI)
 - [assignments](lectures/w8-assignments.md)
 
 ### Week 9
