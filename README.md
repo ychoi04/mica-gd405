@@ -112,9 +112,12 @@
   - https://www.typotheque.com/articles
   - https://programmingdesignsystems.com
   
-<!--  
 
 ### Week 10
+- Interactive Type Poster review
+
+
+<!--  
 - [Type Setting with Array](lectures/w10-array-type-setting.md)
 - Motion
   - [Motion basics](lectures/w10-motion.md)
