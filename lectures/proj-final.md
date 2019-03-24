@@ -46,7 +46,7 @@ At the end of the project, you will submit:
 
 ## Schedule
 
-### Week 10
+### Week 11
 project announcement  
 initial research - Bring in **2 different ideas**. For each idea, present the following materials:
   - concept
@@ -54,21 +54,18 @@ initial research - Bring in **2 different ideas**. For each idea, present the fo
   - inspirations
   - references
   
-### Week 11
-more research  
-work on the first prototypes
-
 ### Week 12
-review the first prototype
+more research  
+work on the 1st prototype
 
 ### Week 13
-work in class
+review the 1st prototype
 
 ### Week 14
-*Zach Lieberman's workshop (full day)*
+review the 2nd prototype
 
 ### Week 15
-work in class
+review the 3rd prototype
 
 ### Week 16
 final presentation
