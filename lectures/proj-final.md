@@ -55,7 +55,7 @@ initial research - Bring in **2 different ideas**. For each idea, present the fo
   - references
   
 ### Week 11
-research presentation
+research presentation  
 work on the 1st prototype
 
 ### Week 12 - 15
