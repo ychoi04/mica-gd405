@@ -11,4 +11,4 @@ One of the best ways to learn is to teach or help other people. This week's assi
 - When we meet next time, we will try out your tutorials as small groups.
 
 ## Final project
-Initial research - present **two different ideas**. Refer to [the final project brief](https://github.com/cdaein/mica-gd405/blob/spring2018/lectures/proj-final.md). Present them as PDF format.
+Initial research - present **two different ideas**. Refer to [the final project brief](proj-final.md). Present them as PDF format.
