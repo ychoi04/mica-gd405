@@ -46,7 +46,7 @@ At the end of the project, you will submit:
 
 ## Schedule
 
-### Week 11
+### Week 10
 project announcement  
 initial research - Bring in **2 different ideas**. For each idea, present the following materials:
   - concept
@@ -54,18 +54,12 @@ initial research - Bring in **2 different ideas**. For each idea, present the fo
   - inspirations
   - references
   
-### Week 12
-more research  
+### Week 11
+research presentation
 work on the 1st prototype
 
-### Week 13
-review the 1st prototype
-
-### Week 14
-review the 2nd prototype
-
-### Week 15
-review the 3rd prototype
+### Week 12 - 15
+continue to work on prototypes, making progress each week.
 
 ### Week 16
 final presentation
